@@ -1,0 +1,155 @@
+{
+  "type": "AnnotationPage",
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld"
+  ],
+  "items": [
+    {
+      "id": "e6bb46dc08d36e91",
+      "type": "Annotation",
+      "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://geojson.org/geojson-ld/geojson-context.jsonld",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "Image",
+        "source": "https://dlc.services/iiif-img/7/14/074a4598-5988-46a2-95f4-f8c625a1fcb3/full/full/0/default.jpg",
+        "service": [
+          {
+            "@id": "https://dlc.services/iiif-img/7/14/074a4598-5988-46a2-95f4-f8c625a1fcb3",
+            "type": "ImageService2"
+          }
+        ],
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"7636\" height=\"10474\"><polygon points=\"821,2084 837,2071 859,2090 2751,2090 2750,2518 2748,2963 2743,3405 2742,3843 2743,4281 2737,4725 2732,5165 2734,5454 2817,5456 2831,7150 2740,7150 2738,7439 2732,7986 2729,8173 2722,9027 2696,9133 2716,9140 2706,9181 2051,9012 1353,8843 812,8714 807,8553 815,7526 965,7528 966,6951 817,6946 823,6127 822,6066 840,4218 851,3167 853,2731 850,2398 854,2148\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                2751,
+                2090
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.3575012,
+                52.0082736
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                2817,
+                5456
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.3578354,
+                52.0084331
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                836,
+                6067
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.3580346,
+                52.0083366
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                2566,
+                6077
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.3579143,
+                52.008441
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                2719,
+                9027
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.3582096,
+                52.008588
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                850,
+                8561
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.3582974,
+                52.0084507
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "pixelCoords": [
+                2417,
+                5489
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.3578759,
+                52.0084084
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

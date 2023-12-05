@@ -1,9 +1,9 @@
 ---
 meta:
-  heading: The Berlage Center for Advanced Studies in Architecture and Urban Design
+  heading: Campus Atlas TU Delft
 viewer:
-  bbox: [4.806266,52.296147,5.027182,52.417977]
-  rotation: 140
+  bbox: [4.3461665562803065, 51.98790922504262, 4.384563857347301, 52.02150490256568]
+  rotation: -65
 geojson:
   - filename: locations.geojson
     label: Locations
@@ -63,11 +63,29 @@ allmaps:
       threshold: 
       hardness: 
     colorize: "#570a0a"
+  - label: Situatie en Codering T.H. - Gebouwen
+    annotation: t.h.gebouwen1959.json
+    opacity: 100
+    saturation: 100
+    removeBackground:
+      color: 
+      threshold: 
+      hardness: 
+    colorize: "#570a0a"
+  - label: TU-Wijk Overzichts-Plattegronden
+    annotation: t.u.gebouwen1993.json
+    opacity: 100
+    saturation: 100
+    removeBackground:
+      color: 
+      threshold: 
+      hardness: 
+    colorize: "#570a0a"
 mapbox:
   styleUrl: 'mapbox://styles/momokb/clnk7dduu000801pgefgra6yk'
   accessToken: 'pk.eyJ1IjoibW9tb2tiIiwiYSI6ImNsbmJxcGtrODBkYnUyaXI3Yjl2ODR1NTkifQ.OvugAnw_FwWro66sJ7Rl5A'
 ---
-## Campus Atlas 
+## Campus Atlas TU Delft
 
 (...)
 

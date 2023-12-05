@@ -379,13 +379,13 @@
 <svelte:window bind:innerHeight bind:innerWidth on:keydown={onKeyDown} on:keyup={onKeyUp} />
 
 <svelte:head>
-	<title>City Atlas</title>
+	<title>Campus Atlas</title>
 </svelte:head>
 
 <div class="grid-container" style="height:{innerHeight}px;">
 	<div class="header">
 		<span class="link" on:click={() => goHome()} on:keypress={() => goHome()}>
-			<span class="hidden">The Berlage: </span>City Atlas</span
+			Campus Atlas</span
 		>
 		{#if $slideShowID === undefined}
 			<span
