@@ -97,7 +97,10 @@
             "properties": {
                 "stroke": "#294c78",
                 "stroke-width": 2,
-                "stroke-opacity": 1
+                "stroke-opacity": 1,
+                "Images": [
+                  "66a4b66d-da37-4e00-b4ba-1991b25f38ab"
+              ]
             }
         }
     ]

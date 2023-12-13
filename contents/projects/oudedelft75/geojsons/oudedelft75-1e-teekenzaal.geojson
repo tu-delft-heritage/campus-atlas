@@ -1,0 +1,43 @@
+{
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            4.3580242,
+            52.0083514
+          ],
+          [
+            4.358112,
+            52.0083883
+          ],
+          [
+            4.3580664,
+            52.0084299
+          ],
+          [
+            4.3579783,
+            52.008392
+          ],
+          [
+            4.3579783,
+            52.008392
+          ],
+          [
+            4.3580242,
+            52.0083514
+          ]
+        ]
+      ]
+    },
+    "properties": {
+        "Label": "Tekenzaal",
+        "Gebouw": "Decoratieve Kunst",
+        "Floor number": 1,
+        "alt_name": "De leeskamer",
+        "Images": [
+          "97cb6043-a819-4769-a866-e4b5e9dcd7e0"
+        ]
+    }
+}

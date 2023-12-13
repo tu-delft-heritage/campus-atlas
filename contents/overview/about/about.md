@@ -82,8 +82,8 @@ allmaps:
       hardness: 
     colorize: "#570a0a"
 mapbox:
-  styleUrl: 'mapbox://styles/momokb/clnk7dduu000801pgefgra6yk'
-  accessToken: 'pk.eyJ1IjoibW9tb2tiIiwiYSI6ImNsbmJxcGtrODBkYnUyaXI3Yjl2ODR1NTkifQ.OvugAnw_FwWro66sJ7Rl5A'
+  styleUrl: 'mapbox://styles/stepanprikazchikov/clpsghvr9018501pa27v12ec4'
+  accessToken: 'pk.eyJ1Ijoic3RlcGFucHJpa2F6Y2hpa292IiwiYSI6ImNscHM5cnBmYTAxcTgybG9wOGJjdHFxMm0ifQ.TlPDvJzXm4QydfisdMdWeQ'
 ---
 ## Campus Atlas TU Delft
 
