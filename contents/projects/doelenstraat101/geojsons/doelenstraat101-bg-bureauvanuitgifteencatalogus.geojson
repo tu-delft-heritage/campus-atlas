@@ -1,0 +1,46 @@
+{
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            4.3601137,
+            52.0158568
+          ],
+          [
+            4.3602858,
+            52.0159302
+          ],
+          [
+            4.3604361,
+            52.0157974
+          ],
+          [
+            4.3602628,
+            52.015723
+          ],
+          [
+            4.3602628,
+            52.015723
+          ],
+          [
+            4.3601137,
+            52.0158568
+          ]
+        ]
+      ]
+    },
+    "properties": {
+      "Label": "Bureau van Uitgifte en Catalogus",
+      "Gebouw": "Centrale Bibliotheek",
+      "Images": [
+        "5eb7c7f1-1366-4d17-ab32-e36061bd9015",
+        "f8cf422d-7ceb-47ac-a68e-1de0fb7f0eeb",
+        "1b7b4de7-79e6-4ec9-8e40-014ac4e49a6a",
+        "a2426fd3-14fa-4df1-b977-9698ef4016f1"
+      ],
+      "Floor number": "BG",
+      "Function": "Returns office"
+    }
+  }

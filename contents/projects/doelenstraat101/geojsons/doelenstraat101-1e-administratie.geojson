@@ -1,0 +1,44 @@
+{
+    "type": "Feature",
+    "properties": {
+      "Label": "Administratie",
+      "Gebouw": "Centrale Bibliotheek",
+      "Floor number": "1",
+      "Images": [
+        "aca373e8-92bc-4540-b9a2-ee6ffeda6e1e",
+        "c916c027-e27e-4288-9266-ebbb446d0459"
+      ],
+      "Function": "Administration"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            4.3603126,
+            52.0157399
+          ],
+          [
+            4.3604813,
+            52.0158122
+          ],
+          [
+            4.36054,
+            52.0157601
+          ],
+          [
+            4.3603715,
+            52.0156879
+          ],
+          [
+            4.3603715,
+            52.0156879
+          ],
+          [
+            4.3603126,
+            52.0157399
+          ]
+        ]
+      ]
+    }
+  }
