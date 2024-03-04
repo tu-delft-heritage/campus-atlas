@@ -1,0 +1,103 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    4.357156,
+                    52.009285
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Caption": "https://dlc.services/iiif-img/7/6/a26cff43-2e71-4259-82bd-0693879c8791/1656,2022,914,1356/350,/0/default.jpg",
+                "Bron: Gedenkschrift van de Koninklijke Academie en van de Polytechnische School": "https://dlc.services/iiif-resource/7/string1string2string3/txf18197"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            4.357185,
+                            52.009083
+                        ],
+                        [
+                            4.357197,
+                            52.009071
+                        ],
+                        [
+                            4.357204,
+                            52.009073
+                        ],
+                        [
+                            4.357293,
+                            52.008986
+                        ],
+                        [
+                            4.357288,
+                            52.008983
+                        ],
+                        [
+                            4.357306,
+                            52.008965
+                        ],
+                        [
+                            4.357309,
+                            52.008966
+                        ],
+                        [
+                            4.357537,
+                            52.008745
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            4.35732,
+                            52.008993
+                        ],
+                        [
+                            4.357454,
+                            52.009044
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            4.357291,
+                            52.009099
+                        ],
+                        [
+                            4.357359,
+                            52.009125
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {
+            },
+            "type": "Feature"
+        }
+    ]
+}

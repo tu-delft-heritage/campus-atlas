@@ -1,0 +1,87 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    4.356967,
+                    52.009421
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Caption": "https://dlc.services/iiif-img/7/6/a70fe69f-ebab-4854-88d9-6e6259287d6b/425,383,889,1336/,350/90/default.jpg",
+                "Bron: Gedenkschrift van de Koninklijke Academie en van de Polytechnische School": "https://dlc.services/iiif-resource/7/string1string2string3/txf18197"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            4.356616,
+                            52.009177
+                        ],
+                        [
+                            4.356666,
+                            52.009126
+                        ],
+                        [
+                            4.356682,
+                            52.009131
+                        ],
+                        [
+                            4.356693,
+                            52.00912
+                        ],
+                        [
+                            4.35678,
+                            52.009155
+                        ],
+                        [
+                            4.356788,
+                            52.009148
+                        ],
+                        [
+                            4.35687,
+                            52.009182
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            4.356923,
+                            52.009022
+                        ],
+                        [
+                            4.356646,
+                            52.008917
+                        ],
+                        [
+                            4.356631,
+                            52.008917
+                        ],
+                        [
+                            4.356613,
+                            52.008912
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {
+            },
+            "type": "Feature"
+        }
+    ]
+}

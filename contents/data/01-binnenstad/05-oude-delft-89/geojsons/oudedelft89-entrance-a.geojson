@@ -1,0 +1,57 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+    },
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    4.357641,
+                    52.009703
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Caption": "https://dlc.services/iiif-img/7/18/c41919a6-6bae-4434-bed6-ad1d3f4cb4e3/226,682,3560,4632/350,/0/default.jpg",
+                "Bron:2006.0018.TMD": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/a3394e36-0bb1-408c-bcbc-5c4f9ab75ebe.json"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            4.357382,
+                            52.009611
+                        ],
+                        [
+                            4.357407,
+                            52.009584
+                        ],
+                        [
+                            4.357354,
+                            52.009565
+                        ],
+                        [
+                            4.357443,
+                            52.009468
+                        ],
+                        [
+                            4.357492,
+                            52.009484
+                        ],
+                        [
+                            4.357516,
+                            52.009461
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {
+                },
+            "type": "Feature"
+        }
+    ]
+}

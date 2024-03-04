@@ -1,0 +1,59 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    4.357575,
+                    52.008746
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Caption": "https://dlc.services/iiif-img/7/6/a26cff43-2e71-4259-82bd-0693879c8791/469,333,902,1256/350,/0/default.jpg",
+                "Bron: Gedenkschrift van de Koninklijke Academie en van de Polytechnische School": "https://dlc.services/iiif-resource/7/string1string2string3/txf18197"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            4.357446,
+                            52.008832
+                        ],
+                        [
+                            4.357373,
+                            52.0089
+                        ],
+                        [
+                            4.357314,
+                            52.008961
+                        ],
+                        [
+                            4.357347,
+                            52.008974
+                        ],
+                        [
+                            4.357331,
+                            52.008991
+                        ],
+                        [
+                            4.357382,
+                            52.00901
+                        ],
+                        [
+                            4.357601,
+                            52.008792
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {
+            },
+            "type": "Feature"
+        }
+    ]
+}   
