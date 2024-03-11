@@ -1,0 +1,119 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    4.370614,
+                    52.008461
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "Caption": "https://dlc.services/iiif-img/7/35/e7b55704-9c2a-4f01-a536-105b6336ce39/592,132,4872,3632/full/0/default.jpg",
+                "Bron:TMD.2006.0020": "https://dlc.services/iiif-resource/7/string1string2string3/fotoalbums/TMD.2006.0020"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            4.370327,
+                            52.008545
+                        ],
+                        [
+                            4.370338,
+                            52.008427
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            4.369954,
+                            52.007682
+                        ],
+                        [
+                            4.369857,
+                            52.007657
+                        ],
+                        [
+                            4.36987,
+                            52.00763
+                        ],
+                        [
+                            4.369392,
+                            52.007482
+                        ],
+                        [
+                            4.369361,
+                            52.007482
+                        ],
+                        [
+                            4.369254,
+                            52.007449
+                        ],
+                        [
+                            4.369261,
+                            52.007432
+                        ],
+                        [
+                            4.368678,
+                            52.007272
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            4.369081,
+                            52.008562
+                        ],
+                        [
+                            4.36891,
+                            52.008494
+                        ],
+                        [
+                            4.368987,
+                            52.008408
+                        ],
+                        [
+                            4.3689,
+                            52.008379
+                        ],
+                        [
+                            4.368853,
+                            52.008432
+                        ],
+                        [
+                            4.368287,
+                            52.008214
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {
+            },
+            "type": "Feature"
+        }
+    ]
+}
