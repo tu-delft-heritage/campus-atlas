@@ -150,7 +150,11 @@ export const vectorLayers = derived(selectedSlideData, ($selectedSlideData, set)
 							// Delete id property in case of duplicate ids
 							delete feature.id
 							// Add geojson path to each feature to check for existing features
-							feature.properties = { ...feature.properties, collection: item.path }
+							feature.properties = {
+								...feature.properties,
+								collection: item.path,
+								label: feature.label || item.label
+							}
 							// Replace for the lines below to add labels from the frontmatter
 							// feature.properties = {
 							// 	...feature.properties,
