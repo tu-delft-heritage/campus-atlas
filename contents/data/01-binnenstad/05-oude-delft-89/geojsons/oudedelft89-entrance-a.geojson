@@ -1,7 +1,5 @@
 {
     "type": "FeatureCollection",
-    "metadata": {
-    },
     "features": [
         {
             "geometry": {
@@ -12,8 +10,8 @@
                 "type": "Point"
             },
             "properties": {
-                "Caption": "https://dlc.services/iiif-img/7/18/c41919a6-6bae-4434-bed6-ad1d3f4cb4e3/226,682,3560,4632/350,/0/default.jpg",
-                "Bron:2006.0018.TMD": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/a3394e36-0bb1-408c-bcbc-5c4f9ab75ebe.json"
+                "image": "https://dlc.services/iiif-img/7/18/c41919a6-6bae-4434-bed6-ad1d3f4cb4e3/226,682,3560,4632/350,/0/default.jpg",
+                "source": "2006.0018.TMD"
             },
             "type": "Feature"
         },

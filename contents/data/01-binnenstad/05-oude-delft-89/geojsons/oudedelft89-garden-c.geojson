@@ -10,8 +10,8 @@
                 "type": "Point"
             },
             "properties": {
-                "Caption": "https://dlc.services/iiif-img/7/6/a70fe69f-ebab-4854-88d9-6e6259287d6b/425,383,889,1336/,350/90/default.jpg",
-                "Bron: Gedenkschrift van de Koninklijke Academie en van de Polytechnische School": "https://dlc.services/iiif-resource/7/string1string2string3/txf18197"
+                "image": "https://dlc.services/iiif-img/7/6/a70fe69f-ebab-4854-88d9-6e6259287d6b/425,383,889,1336/,350/90/default.jpg",
+                "source": "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School"
             },
             "type": "Feature"
         },

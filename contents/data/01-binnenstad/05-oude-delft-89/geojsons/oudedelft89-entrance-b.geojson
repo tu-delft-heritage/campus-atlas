@@ -14,8 +14,8 @@
                 "type": "Point"
             },
             "properties": {
-                "Caption": "https://dlc.services/iiif-img/7/18/13312894-ba02-491f-9ac7-f8237571ab3b/626,182,4904,3448/350,/0/default.jpg",
-                "Bron:2006.0019.TMD": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/f8493e4a-19f9-49c3-a2ba-40ef54d7ba8f.json"
+                "image": "https://dlc.services/iiif-img/7/18/13312894-ba02-491f-9ac7-f8237571ab3b/626,182,4904,3448/350,/0/default.jpg",
+                "source":"2006.0019.TMD"
             },
             "type": "Feature"
         },

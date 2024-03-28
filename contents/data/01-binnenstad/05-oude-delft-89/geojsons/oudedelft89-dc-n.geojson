@@ -4,14 +4,14 @@
         {
             "geometry": {
                 "coordinates": [
-                    4.357331,
-                    52.009012
+                    4.357644,
+                    52.009276
                 ],
                 "type": "Point"
             },
             "properties": {
-                "image": "https://dlc.services/iiif-img/7/6/a70fe69f-ebab-4854-88d9-6e6259287d6b/427,2034,905,1392/,350/90/default.jpg",
-                "source": "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School"
+                "image": "https://dlc.services/iiif-img/7/6/cd569343-041f-4042-914f-30273cc9db98/793,405,1964,1415/full/0/default.jpg",
+                "source": "De Polytechnische School"
             },
             "type": "Feature"
         },
@@ -20,23 +20,22 @@
                 "coordinates": [
                     [
                         [
-                            4.357291,
-                            52.009097
+                            4.357547,
+                            52.00927
                         ],
                         [
-                            4.357333,
-                            52.009055
+                            4.357509,
+                            52.009309
                         ],
                         [
-                            4.357403,
-                            52.009081
+                            4.357608,
+                            52.009351
                         ]
                     ]
                 ],
                 "type": "MultiLineString"
             },
-            "properties": {
-            },
+            "properties": {},
             "type": "Feature"
         }
     ]
