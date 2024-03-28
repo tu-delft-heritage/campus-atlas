@@ -482,9 +482,16 @@
 			<div id="overlay-closer">
 				<button on:click={closeOverlay}><body>{@html close}</body></button>
 			</div>
-			<div id="overlay-content">
-				{#if overlayContents}
-					{#if overlayContents.href}
+			{#if overlayContents}
+				{#if overlayContents.image}
+					<div id="overlay-contents-image">
+						<img alt={overlayContents.label} src={overlayContents.image} />
+						<div id="overlay-image-caption">
+							{overlayContents.label}
+						</div>
+					</div>
+				{:else if overlayContents.href}
+					<div id="overlay-contents-text">
 						<p>{overlayContents.label}</p>
 						<p>
 							{#if about}
@@ -524,11 +531,13 @@
 								</a>
 							{/if}
 						</p>
-					{:else}
+					</div>
+				{:else}
+					<div id="overlay-contents-text">
 						<p>{overlayContents.label}</p>
-					{/if}
+					</div>
 				{/if}
-			</div>
+			{/if}
 		</div>
 	{/if}
 </div>
@@ -547,21 +556,42 @@
 
 	#overlay {
 		position: absolute;
-		min-width: 200px;
-		max-width: 600px;
+		width: 200px;
 		/* width: auto; */
 	}
 
-	#overlay-contents {
+	#overlay-contents-text {
 		background-color: rgba(255, 255, 0, 0.9);
 		color: black;
 		padding: 0.6rem;
 		line-height: 1.6rem;
 		border-radius: 0.4rem;
 		z-index: 100;
+		overflow: hidden;
 		& p {
 			margin: 0;
 		}
+	}
+
+	#overlay-contents-image {
+		background-color: rgba(255, 255, 0, 0.9);
+		color: white;
+		border-radius: 0.4rem;
+		z-index: 100;
+		overflow: hidden;
+		& img {
+			width: 100%;
+			height: auto;
+			display: block;
+		}
+	}
+
+	#overlay-image-caption {
+		position: absolute;
+		color: white;
+		bottom: 0;
+		left: 0;
+		padding: 0.2rem;
 	}
 
 	a.overlay-link {
@@ -572,8 +602,17 @@
 		}
 	}
 
+	.white {
+		& button {
+			color: white;
+		}
+	}
+
 	#overlay-closer {
-		float: right;
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding: 0.2rem;
 		& button {
 			background: none;
 			display: block;
