@@ -1,0 +1,42 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            4.3571831,
+                            52.0094255
+                        ],
+                        [
+                            4.357232,
+                            52.0093738
+                        ],
+                        [
+                            4.3572437,
+                            52.0093781
+                        ]
+                    ]
+                ],
+                "type": "MultiLineString"
+            },
+            "properties": {},
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    4.3572061,
+                    52.0094584
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "image": "https://dlc.services/iiif-img/7/18/2cdeb5bb-5bbf-49f5-ab44-016e38dd6410/248,600,3528,4816/full/0/default.jpg",
+                "source": "2006.0018.TMD"
+            },
+            "type": "Feature"
+        }
+    ]
+}

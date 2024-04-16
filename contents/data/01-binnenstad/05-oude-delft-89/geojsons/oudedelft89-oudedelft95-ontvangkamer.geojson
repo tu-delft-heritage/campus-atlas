@@ -1,6 +1,9 @@
 {
     "type": "Feature",
-    "properties": {},
+    "properties": {
+      "image": "https://dlc.services/iiif-img/7/6/5a911445-3a17-4238-8228-36d49b1f0ece/1558,2130,890,1308/full/90/default.jpg",
+      "source": "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School"
+    },
     "geometry": {
       "coordinates": [
         [
