@@ -32,7 +32,7 @@ export const selectedStyles = new Style({
 
 export const selectableStyles = new Style({
 	stroke: new Stroke({
-		color: 'yellow',
+		color: 'rgba(255, 255, 255, 0)',
 		width: 4
 	}),
 	fill: new Fill({

@@ -383,6 +383,13 @@
 					})
 					map.getTargetElement().style.cursor = ''
 				}
+				if (feature && properties.collection) {
+					vectorSource.forEachFeature((feature) => {
+						if (feature.getProperties().collection === properties.collection) {
+							feature.setStyle(selectedStyles)
+						}
+					})
+				}
 				if (feature && properties.label) {
 					feature.setStyle(selectedStyles)
 					map.getTargetElement().style.cursor = 'pointer'
