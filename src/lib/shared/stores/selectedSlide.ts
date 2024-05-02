@@ -100,8 +100,8 @@ export const georefAnnotations = derived(selectedSlideData, ($selectedSlideData,
 		Promise.all(resp).then((data) => {
 			const map = new Map()
 			for (const item of data) {
-				for (const annotation of item.resp.items) {
-					annotation.properties = {
+				if (item.resp.type === 'Annotation') {
+					item.resp.properties = {
 						opacity: item.opacity,
 						saturation: item.saturation,
 						colorize: item.colorize,
@@ -111,7 +111,21 @@ export const georefAnnotations = derived(selectedSlideData, ($selectedSlideData,
 							hardness: item.removeBackground?.hardness
 						}
 					}
-					map.set(annotation.id, annotation)
+					map.set(item.resp.id, item.resp)
+				} else {
+					for (const annotation of item.resp.items) {
+						annotation.properties = {
+							opacity: item.opacity,
+							saturation: item.saturation,
+							colorize: item.colorize,
+							removeBackground: {
+								color: item.removeBackground?.color,
+								threshold: item.removeBackground?.threshold,
+								hardness: item.removeBackground?.hardness
+							}
+						}
+						map.set(annotation.id, annotation)
+					}
 				}
 			}
 			set(map)

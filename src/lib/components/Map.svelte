@@ -272,9 +272,9 @@
 				let hardness = properties.removeBackground.hardness
 					? properties.removeBackground.hardness / 100
 					: 0.7
-				warpedMapLayer.setMapRemoveBackground(id, { hexColor, threshold, hardness })
+				warpedMapLayer.setMapRemoveColor(id, { hexColor, threshold, hardness })
 			} else {
-				warpedMapLayer.resetMapRemoveBackground(id)
+				warpedMapLayer.resetMapRemoveColor(id)
 			}
 			if (properties.saturation !== undefined) {
 				warpedMapLayer.setMapSaturation(id, properties.saturation / 100)
