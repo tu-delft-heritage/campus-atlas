@@ -1,0 +1,93 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "felt:id": "7fecf52b-f421-4a65-a39c-bddc5dfdf5fe",
+    "felt:version": 1
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          4.3571404,
+          52.0087299
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "felt:clipSource": {},
+        "felt:color": "#C93535",
+        "felt:id": "c6356701-6444-4359-a1eb-2e4fc655b105",
+        "felt:locked": false,
+        "felt:ordering": 1714473937051420,
+        "felt:parentId": "e0782d46-a2ea-4243-9a37-fc44a6c0f00f",
+        "felt:symbol": "dot",
+        "felt:type": "Place",
+        "image": "https://dlc.services/iiif-img/7/6/d5182bcc-85a3-4f2a-83c5-609cb213c544/691,337,2164,1677/full/0/default.jpg",
+        "source": "De Polytechnische School"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3571022,
+              52.0087608
+            ],
+            [
+              4.3569486,
+              52.0087018
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+        "felt:color": "#C93535",
+        "felt:id": "3f7712c2-e2ed-46ad-b287-b4bfd09df60e",
+        "felt:locked": false,
+        "felt:ordering": 1714473952254125,
+        "felt:parentId": "e0782d46-a2ea-4243-9a37-fc44a6c0f00f",
+        "felt:routeMode": "NONE",
+        "felt:showLength": false,
+        "felt:strokeOpacity": 1,
+        "felt:strokeStyle": "solid",
+        "felt:strokeWidth": 4,
+        "felt:type": "Path"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3571158,
+              52.0086661
+            ],
+            [
+              4.3570184,
+              52.0086292
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+        "felt:color": "#C93535",
+        "felt:id": "4a9e0681-2fac-4ed3-bee6-dff219162e96",
+        "felt:locked": false,
+        "felt:ordering": 1714473972024750,
+        "felt:parentId": "e0782d46-a2ea-4243-9a37-fc44a6c0f00f",
+        "felt:routeMode": "NONE",
+        "felt:showLength": false,
+        "felt:strokeOpacity": 1,
+        "felt:strokeStyle": "solid",
+        "felt:strokeWidth": 4,
+        "felt:type": "Path"
+      },
+      "type": "Feature"
+    }
+  ]
+}

@@ -6,23 +6,23 @@
         "coordinates": [
           [
             [
-              4.3573899,
+              4.35739,
               52.0090143
             ],
             [
-              4.3574601,
-              52.0089432
+              4.3574605,
+              52.0089434
             ],
             [
-              4.3575586,
-              52.0089807
+              4.3575583,
+              52.0089805
             ],
             [
-              4.3574881,
-              52.0090518
+              4.3574867,
+              52.0090514
             ],
             [
-              4.3573899,
+              4.35739,
               52.0090143
             ]
           ]
@@ -30,7 +30,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "image": "https://dlc.services/iiif-img/7/6/5292ce52-fdea-4cd1-bca8-68b5a55c667b/370,2143,899,1263/full/90/default.jpg\n",
+        "image": "https://dlc.services/iiif-img/7/6/eef3d369-f009-42fb-a251-752857eb8266/381,2076,909,1339/full/90/default.jpg",
         "source": "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School"
       },
       "type": "Feature"

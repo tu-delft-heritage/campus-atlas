@@ -1,0 +1,82 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "felt:id": "7fecf52b-f421-4a65-a39c-bddc5dfdf5fe",
+    "felt:version": 1
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.356521,
+              52.0088384
+            ],
+            [
+              4.356589,
+              52.0087686
+            ],
+            [
+              4.3567063,
+              52.0088152
+            ],
+            [
+              4.3567074,
+              52.0088146
+            ],
+            [
+              4.3569317,
+              52.0088996
+            ],
+            [
+              4.3568538,
+              52.0089808
+            ],
+            [
+              4.3566579,
+              52.0089053
+            ],
+            [
+              4.3566616,
+              52.0089017
+            ],
+            [
+              4.3566564,
+              52.0088999
+            ],
+            [
+              4.3566576,
+              52.008898
+            ],
+            [
+              4.3566532,
+              52.0088889
+            ],
+            [
+              4.356521,
+              52.0088384
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "name": "Westvest 7 laboratorium d",
+        "felt:color": "#C93535",
+        "felt:fillOpacity": 0.25,
+        "felt:id": "9e68e803-b1af-418a-a715-f2bd2cb5fd52",
+        "felt:locked": false,
+        "felt:ordering": 1714488318890715,
+        "felt:showArea": false,
+        "felt:strokeOpacity": 1,
+        "felt:strokeStyle": "solid",
+        "felt:strokeWidth": 2,
+        "felt:type": "Polygon",
+        "image": "https://dlc.services/iiif-img/7/35/cd18b0db-2d3e-4dd1-958f-c5a79cbd7088/579,184,4904,3584/full/0/default.jpg",
+        "source": "TMD.2006.0019"
+      },
+      "type": "Feature"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3572793,
+              52.0089852
+            ],
+            [
+              4.3571998,
+              52.0090642
+            ],
+            [
+              4.357034,
+              52.0090018
+            ],
+            [
+              4.3571124,
+              52.008922
+            ],
+            [
+              4.3572793,
+              52.0089852
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "image": "https://dlc.services/iiif-img/7/6/b2c466f4-5d77-4851-85b2-d6076c148193/1557,1275,881,1271/full/90/default.jpg",
+        "source": "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School"
+      },
+      "type": "Feature"
+    }
+  ]
+}
