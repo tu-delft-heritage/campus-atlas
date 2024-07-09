@@ -1,0 +1,90 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          4.3682316,
+          52.009066
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "felt:clipSource": {},
+        "felt:color": "#C93535",
+        "felt:id": "YHhnU860TbS7ZEE9AOjkCBA",
+        "felt:locked": false,
+        "felt:ordering": 1720089430922422,
+        "felt:parentId": "bupQWTP9AQOGKubxFLQVD6A",
+        "felt:symbol": "dot",
+        "felt:type": "Place",
+        "image": "https://dlc.services/iiif-img/7/35/e452df52-a921-4d11-8d98-6b1bd4eccdbb/692,195,4728,3536/max/0/default.jpg",
+        "source": "TMD.2006.0018"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3689143,
+              52.0086557
+            ],
+            [
+              4.368843,
+              52.0086282
+            ],
+            [
+              4.3688576,
+              52.0086141
+            ],
+            [
+              4.3688013,
+              52.0085918
+            ],
+            [
+              4.3687988,
+              52.0085946
+            ],
+            [
+              4.3685309,
+              52.0084918
+            ],
+            [
+              4.3685183,
+              52.008504
+            ],
+            [
+              4.3683966,
+              52.0084563
+            ],
+            [
+              4.368408,
+              52.0084447
+            ],
+            [
+              4.3681397,
+              52.0083405
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+        "felt:color": "#C93535",
+        "felt:id": "VWK1ereeRM26sYdWg2DljB",
+        "felt:locked": false,
+        "felt:ordering": 1720089451632745,
+        "felt:parentId": "bupQWTP9AQOGKubxFLQVD6A",
+        "felt:routeMode": "NONE",
+        "felt:showLength": false,
+        "felt:strokeOpacity": 1,
+        "felt:strokeStyle": "solid",
+        "felt:strokeWidth": 4,
+        "felt:type": "Path"
+      },
+      "type": "Feature"
+    }
+  ]
+}

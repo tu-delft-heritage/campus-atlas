@@ -1,1 +1,70 @@
-{"type":"FeatureCollection","metadata":{"felt:id":"7fecf52b-f421-4a65-a39c-bddc5dfdf5fe","felt:version":1},"features":[{"geometry":{"coordinates":[[[4.3572745,52.0095254],[4.3572447,52.0095588],[4.357323,52.0095867],[4.357332,52.0095773]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"b591731e-e034-4659-bbde-793252b40330","felt:locked":false,"felt:ordering":1715605054298251,"felt:parentId":"3993fdff-208b-4999-b015-b15e201951ad","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"},{"geometry":{"coordinates":[4.3573182,52.0095364],"type":"Point"},"properties":{"felt:clipSource":{},"felt:color":"#C93535","felt:id":"95bc39d7-0c79-4c27-8c1b-cea6875da00a","felt:locked":false,"felt:ordering":1715605072410183,"felt:parentId":"3993fdff-208b-4999-b015-b15e201951ad","felt:symbol":"dot","felt:type":"Place","image":"https://dlc.services/iiif-img/7/6/a8185c6b-d124-45ba-8b6d-1999c1b45d63/362,383,1245,947/full/0/default.jpg","source":"de Technische Hogeschool"},"type":"Feature"}]}
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "felt:id": "7fecf52b-f421-4a65-a39c-bddc5dfdf5fe",
+    "felt:version": 1
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3572745,
+              52.0095254
+            ],
+            [
+              4.3572447,
+              52.0095588
+            ],
+            [
+              4.357323,
+              52.0095867
+            ],
+            [
+              4.357332,
+              52.0095773
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+        "felt:color": "#C93535",
+        "felt:id": "b591731e-e034-4659-bbde-793252b40330",
+        "felt:locked": false,
+        "felt:ordering": 1715605054298251,
+        "felt:parentId": "3993fdff-208b-4999-b015-b15e201951ad",
+        "felt:routeMode": "NONE",
+        "felt:showLength": false,
+        "felt:strokeOpacity": 1,
+        "felt:strokeStyle": "solid",
+        "felt:strokeWidth": 4,
+        "felt:type": "Path"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.3573182,
+          52.0095364
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "felt:clipSource": {},
+        "felt:color": "#C93535",
+        "felt:id": "95bc39d7-0c79-4c27-8c1b-cea6875da00a",
+        "felt:locked": false,
+        "felt:ordering": 1715605072410183,
+        "felt:parentId": "3993fdff-208b-4999-b015-b15e201951ad",
+        "felt:symbol": "dot",
+        "felt:type": "Place",
+        "image": "https://dlc.services/iiif-img/7/6/a8185c6b-d124-45ba-8b6d-1999c1b45d63/362,383,1245,947/full/0/default.jpg",
+        "source": "de Technische Hogeschool"
+      },
+      "type": "Feature"
+    }
+  ]
+}

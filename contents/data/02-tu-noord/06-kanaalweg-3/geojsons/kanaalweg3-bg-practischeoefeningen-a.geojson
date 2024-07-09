@@ -1,29 +1,28 @@
 {
   "type": "FeatureCollection",
-  "metadata": {
-    "felt:id": "7fecf52b-f421-4a65-a39c-bddc5dfdf5fe",
-    "felt:version": 1
-  },
   "features": [
     {
       "geometry": {
         "coordinates": [
-          4.3571753,
-          52.0090617
+          4.3671631,
+          52.0075573
         ],
         "type": "Point"
       },
       "properties": {
         "felt:clipSource": {},
         "felt:color": "#C93535",
-        "felt:id": "80aca6f5-c806-40a4-8f8f-f15f2ac1d168",
+        "felt:hasLongDescription": false,
+        "felt:id": "vDSgGyj9CQjCHF0GiRg1MwD",
         "felt:locked": false,
-        "felt:ordering": 1714567495518673,
-        "felt:parentId": "fa3f9e14-553f-41d7-bca1-dd2bfca92c42",
+        "felt:ordering": 1720444321947368,
+        "felt:parentId": "gOTfHzYASOS9A6wr5Mwk4ID",
+        "felt:radiusDisplayAngle": 90,
         "felt:symbol": "dot",
         "felt:type": "Place",
-        "image": "https://dlc.services/iiif-img/7/6/ea7eac16-4778-459b-a29c-65bc6583cf6a/2182,2692,1259,1688/full/0/default.jpg",
-        "source": "TRK-9811201"
+        "felt:widthScale": 1,
+        "image": "https://dlc.services/iiif-img/7/6/7031d3e5-296f-47a4-bf03-eeef2712f9f6/1588,2052,881,1356/full/90/default.jpg",
+        "source": "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School"
       },
       "type": "Feature"
     },
@@ -32,12 +31,16 @@
         "coordinates": [
           [
             [
-              4.3572988,
-              52.0089614
+              4.3672052,
+              52.0075228
             ],
             [
-              4.357139,
-              52.0088983
+              4.3671592,
+              52.0075049
+            ],
+            [
+              4.3671232,
+              52.0075408
             ]
           ]
         ],
@@ -45,10 +48,10 @@
       },
       "properties": {
         "felt:color": "#C93535",
-        "felt:id": "262f5f25-9a67-444c-82d5-a164a2a88ea7",
+        "felt:id": "1bXJaIKDS4KFssC6kJACFD",
         "felt:locked": false,
-        "felt:ordering": 1714567504207332,
-        "felt:parentId": "fa3f9e14-553f-41d7-bca1-dd2bfca92c42",
+        "felt:ordering": 1720445166966101,
+        "felt:parentId": "gOTfHzYASOS9A6wr5Mwk4ID",
         "felt:routeMode": "NONE",
         "felt:showLength": false,
         "felt:strokeOpacity": 1,

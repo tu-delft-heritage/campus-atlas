@@ -1,29 +1,25 @@
 {
   "type": "FeatureCollection",
-  "metadata": {
-    "felt:id": "7fecf52b-f421-4a65-a39c-bddc5dfdf5fe",
-    "felt:version": 1
-  },
   "features": [
     {
       "geometry": {
         "coordinates": [
-          4.3562809,
-          52.0084132
+          4.3688067,
+          52.0084556
         ],
         "type": "Point"
       },
       "properties": {
         "felt:clipSource": {},
         "felt:color": "#C93535",
-        "felt:id": "24dbc99f-7300-4948-b1aa-f505d33371ff",
+        "felt:id": "9BzdQ3cz6S7alkfsQ282TkC",
         "felt:locked": false,
-        "felt:ordering": 1714487415427080,
-        "felt:parentId": "c67acee0-4108-4bc4-bd6c-cf2974111a2d",
+        "felt:ordering": 1720089615680519,
+        "felt:parentId": "sl1z9AB7PR9ACwG8rqkgy6YD",
         "felt:symbol": "dot",
         "felt:type": "Place",
-        "image": "https://dlc.services/iiif-img/7/35/5f72f57a-9981-40db-aa90-99f29b5d0e92/524,119,4936,3648/full/0/default.jpg",
-        "source": "TMD.2006.0019"
+        "image": "https://dlc.services/iiif-img/7/35/0eb2a08f-1492-477d-8a86-05d2a84e0de2/548,182,4888,3536/max/0/default.jpg",
+        "source": "TMD.2006.0018"
       },
       "type": "Feature"
     },
@@ -32,28 +28,24 @@
         "coordinates": [
           [
             [
-              4.356618,
-              52.0087302
+              4.3687737,
+              52.0084772
             ],
             [
-              4.3567155,
-              52.0086319
+              4.3686677,
+              52.0084373
             ],
             [
-              4.3567109,
-              52.0086304
+              4.3686606,
+              52.0084427
             ],
             [
-              4.3568098,
-              52.0085284
+              4.3685643,
+              52.0084033
             ],
             [
-              4.3568144,
-              52.0085299
-            ],
-            [
-              4.3568819,
-              52.008461
+              4.3685756,
+              52.0083913
             ]
           ]
         ],
@@ -61,10 +53,10 @@
       },
       "properties": {
         "felt:color": "#C93535",
-        "felt:id": "72c3453c-dbc8-4fcf-96ad-70b85b351b6f",
+        "felt:id": "3lKqpaEcS32WDmhs9BrdHwD",
         "felt:locked": false,
-        "felt:ordering": 1714487449357405,
-        "felt:parentId": "c67acee0-4108-4bc4-bd6c-cf2974111a2d",
+        "felt:ordering": 1720089621453334,
+        "felt:parentId": "sl1z9AB7PR9ACwG8rqkgy6YD",
         "felt:routeMode": "NONE",
         "felt:showLength": false,
         "felt:strokeOpacity": 1,
@@ -79,16 +71,16 @@
         "coordinates": [
           [
             [
-              4.3569247,
-              52.0084234
+              4.3682212,
+              52.0082714
             ],
             [
-              4.3569095,
-              52.0084374
+              4.3682758,
+              52.0082188
             ],
             [
-              4.3569721,
-              52.008461
+              4.3688169,
+              52.0084286
             ]
           ]
         ],
@@ -96,10 +88,10 @@
       },
       "properties": {
         "felt:color": "#C93535",
-        "felt:id": "e82d4ecb-3388-4b26-b4d2-d953357468e6",
+        "felt:id": "ULI42bWlT2a9BS82GC9AEzZC",
         "felt:locked": false,
-        "felt:ordering": 1714487472335342,
-        "felt:parentId": "c67acee0-4108-4bc4-bd6c-cf2974111a2d",
+        "felt:ordering": 1720089641100188,
+        "felt:parentId": "sl1z9AB7PR9ACwG8rqkgy6YD",
         "felt:routeMode": "NONE",
         "felt:showLength": false,
         "felt:strokeOpacity": 1,
