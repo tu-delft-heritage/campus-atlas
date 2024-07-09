@@ -21,7 +21,7 @@
         "felt:symbol": "dot",
         "felt:type": "Place",
         "felt:widthScale": 1,
-        "image": "https://dlc.services/iiif-img/7/6/7031d3e5-296f-47a4-bf03-eeef2712f9f6/1588,2052,881,1356/full/90/default.jpg",
+        "image": "https://dlc.services/iiif-img/7/6/7031d3e5-296f-47a4-bf03-eeef2712f9f6/1588,2052,881,1356/max/90/default.jpg",
         "source": "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School"
       },
       "type": "Feature"

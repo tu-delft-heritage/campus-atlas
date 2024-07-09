@@ -10,7 +10,7 @@
                 "type": "Point"
             },
             "properties": {
-                "image": "https://dlc.services/iiif-img/7/6/873521c8-7db2-4844-aa08-e7776c50b7dc/997,394,1868,1303/full/0/default.jpg",
+                "image": "https://dlc.services/iiif-img/7/6/873521c8-7db2-4844-aa08-e7776c50b7dc/997,394,1868,1303/max/0/default.jpg",
                 "source": "Photographieen van de Technische Hoogeschool te Delft."
             },
             "type": "Feature"

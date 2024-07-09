@@ -22,7 +22,7 @@
         "felt:parentId": "fa3f9e14-553f-41d7-bca1-dd2bfca92c42",
         "felt:symbol": "dot",
         "felt:type": "Place",
-        "image": "https://dlc.services/iiif-img/7/6/ea7eac16-4778-459b-a29c-65bc6583cf6a/2182,2692,1259,1688/full/0/default.jpg",
+        "image": "https://dlc.services/iiif-img/7/6/ea7eac16-4778-459b-a29c-65bc6583cf6a/2182,2692,1259,1688/max/0/default.jpg",
         "source": "TRK-9811201"
       },
       "type": "Feature"

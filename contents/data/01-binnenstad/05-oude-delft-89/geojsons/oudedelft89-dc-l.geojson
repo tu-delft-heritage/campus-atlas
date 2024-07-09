@@ -10,7 +10,7 @@
                 "type": "Point"
             },
             "properties": {
-                "image": "https://dlc.services/iiif-img/7/6/a8fbf6a3-f0cf-4298-a5c4-d327cd5a6d2c/868,955,1004,1536/full/0/default.jpg",
+                "image": "https://dlc.services/iiif-img/7/6/a8fbf6a3-f0cf-4298-a5c4-d327cd5a6d2c/868,955,1004,1536/max/0/default.jpg",
                 "source": "TR-2988225"
             },
             "type": "Feature"

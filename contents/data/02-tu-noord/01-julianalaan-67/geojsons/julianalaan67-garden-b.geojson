@@ -10,7 +10,7 @@
                 "type": "Point"
             },
             "properties": {
-                "Caption": "https://dlc.services/iiif-img/7/35/d8f5f0c7-6708-48f9-82cd-67727e62fe58/592,120,4840,3584/full/0/default.jpg",
+                "Caption": "https://dlc.services/iiif-img/7/35/d8f5f0c7-6708-48f9-82cd-67727e62fe58/592,120,4840,3584/max/0/default.jpg",
                 "Bron:TMD.2006.0020": "https://dlc.services/iiif-resource/7/string1string2string3/fotoalbums/TMD.2006.0020"
             },
             "type": "Feature"

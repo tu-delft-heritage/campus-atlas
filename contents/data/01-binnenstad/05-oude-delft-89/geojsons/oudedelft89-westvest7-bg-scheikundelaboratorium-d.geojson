@@ -73,7 +73,7 @@
         "felt:strokeStyle": "solid",
         "felt:strokeWidth": 2,
         "felt:type": "Polygon",
-        "image": "https://dlc.services/iiif-img/7/35/cd18b0db-2d3e-4dd1-958f-c5a79cbd7088/579,184,4904,3584/full/0/default.jpg",
+        "image": "https://dlc.services/iiif-img/7/35/cd18b0db-2d3e-4dd1-958f-c5a79cbd7088/579,184,4904,3584/max/0/default.jpg",
         "source": "TMD.2006.0019"
       },
       "type": "Feature"

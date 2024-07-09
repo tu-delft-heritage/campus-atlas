@@ -61,7 +61,7 @@
         "felt:parentId": "3993fdff-208b-4999-b015-b15e201951ad",
         "felt:symbol": "dot",
         "felt:type": "Place",
-        "image": "https://dlc.services/iiif-img/7/6/a8185c6b-d124-45ba-8b6d-1999c1b45d63/362,383,1245,947/full/0/default.jpg",
+        "image": "https://dlc.services/iiif-img/7/6/a8185c6b-d124-45ba-8b6d-1999c1b45d63/362,383,1245,947/max/0/default.jpg",
         "source": "de Technische Hogeschool"
       },
       "type": "Feature"

@@ -30,7 +30,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "image": "https://dlc.services/iiif-img/7/6/eef3d369-f009-42fb-a251-752857eb8266/393,333,893,1319/full/90/default.jpg\n",
+        "image": "https://dlc.services/iiif-img/7/6/eef3d369-f009-42fb-a251-752857eb8266/393,333,893,1319/max/90/default.jpg\n",
         "source": "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School"
       },
       "type": "Feature"

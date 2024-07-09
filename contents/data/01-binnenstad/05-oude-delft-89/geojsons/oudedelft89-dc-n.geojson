@@ -10,7 +10,7 @@
                 "type": "Point"
             },
             "properties": {
-                "image": "https://dlc.services/iiif-img/7/6/cd569343-041f-4042-914f-30273cc9db98/793,405,1964,1415/full/0/default.jpg",
+                "image": "https://dlc.services/iiif-img/7/6/cd569343-041f-4042-914f-30273cc9db98/793,405,1964,1415/max/0/default.jpg",
                 "source": "De Polytechnische School"
             },
             "type": "Feature"

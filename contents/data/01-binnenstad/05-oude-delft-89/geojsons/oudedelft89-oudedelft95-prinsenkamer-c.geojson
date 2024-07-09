@@ -10,7 +10,7 @@
                 "type": "Point"
             },
             "properties": {
-                "image": "https://dlc.services/iiif-img/7/6/5a911445-3a17-4238-8228-36d49b1f0ece/331,372,906,1292/full/90/default.jpg",
+                "image": "https://dlc.services/iiif-img/7/6/5a911445-3a17-4238-8228-36d49b1f0ece/331,372,906,1292/max/90/default.jpg",
                 "source": "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School"
             },
             "type": "Feature"
