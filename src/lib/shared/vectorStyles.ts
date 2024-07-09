@@ -30,9 +30,28 @@ export const selectedStyles = new Style({
 	zIndex: 5
 })
 
-export const selectableStyles = new Style({
+export const hiddenStyles = new Style({
 	stroke: new Stroke({
 		color: 'rgba(255, 255, 255, 0)',
+		width: 4
+	}),
+	fill: new Fill({
+		color: 'rgba(255, 255, 255, 0)'
+	}),
+	image: new Circle({
+		radius: 12,
+		fill: new Fill({ color: 'rgba(255, 255, 255, 0)' }),
+		stroke: new Stroke({
+			color: 'black',
+			width: 4
+		})
+	}),
+	zIndex: 4
+})
+
+export const selectableStyles = new Style({
+	stroke: new Stroke({
+		color: 'yellow',
 		width: 4
 	}),
 	fill: new Fill({

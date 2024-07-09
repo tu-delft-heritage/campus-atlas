@@ -48,6 +48,7 @@
 		defaultStyles,
 		selectedStyles,
 		selectableStyles,
+		hiddenStyles,
 		parseCustomFeatureStyle
 	} from '$lib/shared/vectorStyles.js'
 	import { plus, minus, arrowUp, berlage } from '$lib/shared/svgs.js'
@@ -336,7 +337,10 @@
 		let selectable = false
 		vectorSource.forEachFeature(function (feature) {
 			let properties = feature.getProperties()
-			if (properties.href || properties.label) {
+			let type = feature.getGeometry()?.getType()
+			if (type === 'MultiLineString') {
+				feature.setStyle(hiddenStyles)
+			} else if (properties.href || properties.label) {
 				selectable = true
 				feature.setStyle(selectableStyles)
 
@@ -374,7 +378,10 @@
 				if (feature == undefined || !properties.label) {
 					vectorSource.forEachFeature(function (feature) {
 						let properties = feature.getProperties()
-						if (properties.href || properties.label) {
+						let type = feature.getGeometry()?.getType()
+						if (type === 'MultiLineString') {
+							feature.setStyle(hiddenStyles)
+						} else if (properties.href || properties.label) {
 							feature.setStyle(selectableStyles)
 							// } else if (properties.label) {
 							// 	const customStyle = parseCustomFeatureStyle(properties)
@@ -385,7 +392,10 @@
 				}
 				if (feature && properties.collection) {
 					vectorSource.forEachFeature((feature) => {
-						if (feature.getProperties().collection === properties.collection) {
+						if (
+							feature.getProperties().collection === properties.collection &&
+							feature.getGeometry()?.getType() === 'MultiLineString'
+						) {
 							feature.setStyle(selectedStyles)
 						}
 					})
@@ -492,7 +502,7 @@
 			{#if overlayContents}
 				{#if overlayContents.image}
 					<div id="overlay-contents-image">
-						<img alt={overlayContents.label} src={overlayContents.image} />
+						<img alt={overlayContents.label} src={overlayContents.image.replace('max', '300,')} />
 						<div id="overlay-image-caption">
 							{overlayContents.label}
 						</div>
@@ -563,7 +573,7 @@
 
 	#overlay {
 		position: absolute;
-		width: 200px;
+		width: 300px;
 		/* width: auto; */
 	}
 
