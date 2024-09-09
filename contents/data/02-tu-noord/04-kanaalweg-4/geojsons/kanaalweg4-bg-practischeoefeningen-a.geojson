@@ -1,1 +1,87 @@
-{"type":"FeatureCollection","features":[{"geometry":{"coordinates":[4.3684786,52.0083403],"type":"Point"},"properties":{"felt:clipSource":{},"felt:color":"#C93535","felt:id":"L9BIaO8TGSJ6ebmmuyxIfgC","felt:locked":false,"felt:ordering":1720097310215056,"felt:parentId":"ks8HrNEwQU9B1YChrZL3FrD","felt:symbol":"dot","felt:type":"Place","image":"https://dlc.services/iiif-img/7/6/a49b037f-6a58-404a-8120-050a080b7121/373,333,934,1383/max/90/default.jpg","source":"Gedenkschrift van de Koninklijke Academie en van de Polytechnische School"},"type":"Feature"},{"geometry":{"coordinates":[[[4.3684425,52.0083593],[4.3684242,52.0083525],[4.3684258,52.0083503],[4.3684234,52.0083493],[4.3684236,52.0083483],[4.368255,52.0082824],[4.3682534,52.0082836],[4.3682517,52.0082825],[4.3682542,52.008279],[4.3682319,52.0082706],[4.3682289,52.0082742],[4.3682215,52.0082714],[4.3682753,52.0082192],[4.3683353,52.0082421]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"w67GCx9C2Rdqp8Kh6sSF48C","felt:locked":false,"felt:ordering":1720097330200817,"felt:parentId":"ks8HrNEwQU9B1YChrZL3FrD","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          4.3684786,
+          52.0083403
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "image": "https://dlc.services/iiif-img/7/6/a49b037f-6a58-404a-8120-050a080b7121/373,333,934,1383/max/90/default.jpg",
+        "source": "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3684425,
+              52.0083593
+            ],
+            [
+              4.3684242,
+              52.0083525
+            ],
+            [
+              4.3684258,
+              52.0083503
+            ],
+            [
+              4.3684234,
+              52.0083493
+            ],
+            [
+              4.3684236,
+              52.0083483
+            ],
+            [
+              4.368255,
+              52.0082824
+            ],
+            [
+              4.3682534,
+              52.0082836
+            ],
+            [
+              4.3682517,
+              52.0082825
+            ],
+            [
+              4.3682542,
+              52.008279
+            ],
+            [
+              4.3682319,
+              52.0082706
+            ],
+            [
+              4.3682289,
+              52.0082742
+            ],
+            [
+              4.3682215,
+              52.0082714
+            ],
+            [
+              4.3682753,
+              52.0082192
+            ],
+            [
+              4.3683353,
+              52.0082421
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    }
+  ]
+}

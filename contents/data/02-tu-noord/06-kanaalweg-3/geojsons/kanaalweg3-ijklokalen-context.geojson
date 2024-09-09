@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3669865,
+              52.0075015
+            ],
+            [
+              4.3671505,
+              52.0073368
+            ],
+            [
+              4.3673547,
+              52.0074165
+            ],
+            [
+              4.367191,
+              52.0075806
+            ],
+            [
+              4.3669865,
+              52.0075015
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "name": "Kanaalweg 3 ijklokalen, laboratoria en een instrumentengalerij"
+      },
+      "type": "Feature"
+    }
+  ]
+}

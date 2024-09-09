@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.366815,
+              52.0072755
+            ],
+            [
+              4.3670536,
+              52.0070389
+            ],
+            [
+              4.367217,
+              52.0071024
+            ],
+            [
+              4.3669795,
+              52.0073389
+            ],
+            [
+              4.366815,
+              52.0072755
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "name": "Kanaalweg 3 Dynamolokaal"
+      },
+      "type": "Feature"
+    }
+  ]
+}

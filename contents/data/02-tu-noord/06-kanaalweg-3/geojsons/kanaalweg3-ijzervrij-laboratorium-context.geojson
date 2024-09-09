@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3674081,
+              52.0072007
+            ],
+            [
+              4.3675234,
+              52.0070841
+            ],
+            [
+              4.3677605,
+              52.0071759
+            ],
+            [
+              4.3676431,
+              52.0072897
+            ],
+            [
+              4.3674081,
+              52.0072007
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "name": "Kanaalweg 3 Ijzervrij Laboratorium"
+      },
+      "type": "Feature"
+    }
+  ]
+}

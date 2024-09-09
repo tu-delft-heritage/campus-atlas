@@ -110,9 +110,6 @@
         "type": "Polygon"
       },
       "properties": {
-        "fill": "#294c78",
-        "stroke": "#294c78",
-        "fill-opacity": 0.5
       },
       "type": "Feature"
     }

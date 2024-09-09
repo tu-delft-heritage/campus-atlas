@@ -10,17 +10,6 @@
         "type": "Point"
       },
       "properties": {
-        "felt:clipSource": {},
-        "felt:color": "#C93535",
-        "felt:hasLongDescription": false,
-        "felt:id": "vDSgGyj9CQjCHF0GiRg1MwD",
-        "felt:locked": false,
-        "felt:ordering": 1720444321947368,
-        "felt:parentId": "gOTfHzYASOS9A6wr5Mwk4ID",
-        "felt:radiusDisplayAngle": 90,
-        "felt:symbol": "dot",
-        "felt:type": "Place",
-        "felt:widthScale": 1,
         "image": "https://dlc.services/iiif-img/7/6/7031d3e5-296f-47a4-bf03-eeef2712f9f6/1588,2052,881,1356/max/90/default.jpg",
         "source": "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School"
       },
@@ -47,17 +36,6 @@
         "type": "MultiLineString"
       },
       "properties": {
-        "felt:color": "#C93535",
-        "felt:id": "1bXJaIKDS4KFssC6kJACFD",
-        "felt:locked": false,
-        "felt:ordering": 1720445166966101,
-        "felt:parentId": "gOTfHzYASOS9A6wr5Mwk4ID",
-        "felt:routeMode": "NONE",
-        "felt:showLength": false,
-        "felt:strokeOpacity": 1,
-        "felt:strokeStyle": "solid",
-        "felt:strokeWidth": 4,
-        "felt:type": "Path"
       },
       "type": "Feature"
     }

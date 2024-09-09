@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3602003,
+              52.0160536
+            ],
+            [
+              4.3603275,
+              52.0159422
+            ],
+            [
+              4.360701,
+              52.0160989
+            ],
+            [
+              4.360575,
+              52.0162109
+            ],
+            [
+              4.3602003,
+              52.0160536
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "name": "Doelenstraat 101 boekenmagazijn"
+      },
+      "type": "Feature"
+    }
+  ]
+}

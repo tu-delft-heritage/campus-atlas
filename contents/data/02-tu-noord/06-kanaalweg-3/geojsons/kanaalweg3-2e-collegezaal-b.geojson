@@ -10,14 +10,6 @@
         "type": "Point"
       },
       "properties": {
-        "felt:clipSource": {},
-        "felt:color": "#C93535",
-        "felt:id": "RHZn8niIQHO6NamR2kC57D",
-        "felt:locked": false,
-        "felt:ordering": 1720525523719306,
-        "felt:parentId": "sqKRtGcfR9BuLWtXHFoUpRD",
-        "felt:symbol": "dot",
-        "felt:type": "Place",
         "image": "https://dlc.services/iiif-img/7/6/2085e137-cd42-45ad-983a-9178b738bf96/1177,556,1819,2454/full/0/default.jpg",
         "source": "TRK-9811201"
       },
@@ -44,17 +36,6 @@
         "type": "MultiLineString"
       },
       "properties": {
-        "felt:color": "#C93535",
-        "felt:id": "bvpdtazSRG25FqubaIZtgB",
-        "felt:locked": false,
-        "felt:ordering": 1720525534585361,
-        "felt:parentId": "sqKRtGcfR9BuLWtXHFoUpRD",
-        "felt:routeMode": "NONE",
-        "felt:showLength": false,
-        "felt:strokeOpacity": 1,
-        "felt:strokeStyle": "solid",
-        "felt:strokeWidth": 4,
-        "felt:type": "Path"
       },
       "type": "Feature"
     }

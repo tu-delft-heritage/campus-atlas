@@ -22,17 +22,6 @@
         "type": "MultiLineString"
       },
       "properties": {
-        "felt:color": "#C93535",
-        "felt:id": "caXcr0zQTBe5C9Azre7LHAB",
-        "felt:locked": false,
-        "felt:ordering": 1724146159739516,
-        "felt:parentId": "0X9BnGR3cRF2fjCOYQyxVvD",
-        "felt:routeMode": "NONE",
-        "felt:showLength": false,
-        "felt:strokeOpacity": 1,
-        "felt:strokeStyle": "solid",
-        "felt:strokeWidth": 4,
-        "felt:type": "Path"
       },
       "type": "Feature"
     },
@@ -45,14 +34,6 @@
         "type": "Point"
       },
       "properties": {
-        "felt:clipSource": {},
-        "felt:color": "#C93535",
-        "felt:id": "BXrkClGVQb9BWM69CYafiygB",
-        "felt:locked": false,
-        "felt:ordering": 1724146179444834,
-        "felt:parentId": "0X9BnGR3cRF2fjCOYQyxVvD",
-        "felt:symbol": "dot",
-        "felt:type": "Place",
         "image": "https://dlc.services/iiif-img/7/6/6b71e2a2-7a68-4c55-9554-ecc65aabf3fc/1339,678,1987,1408/max/0/default.jpg",
         "source": "bibliotheek-der-technische-hoogeschool-1939-1942"
       },
