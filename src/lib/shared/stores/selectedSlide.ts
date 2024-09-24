@@ -1,6 +1,7 @@
 import { readable, writable, derived, get } from 'svelte/store'
 import { slideData } from '$lib/shared/stores/markdownSlides.js'
 import { fetchJson } from '$lib/shared/utils.js'
+import { base } from '$app/paths'
 
 export let selectedChapter = writable<string | undefined>(undefined)
 export let selectedSlideShow = writable<string | undefined>(undefined)
@@ -93,7 +94,7 @@ export const georefAnnotations = derived(selectedSlideData, ($selectedSlideData,
 			.reverse()
 			// Create an array of promises to fetch the jsons while keeping the metadata
 			.map((item) => {
-				const path = $selectedSlideData.path + 'annotations/' + item.annotation
+				const path = base + $selectedSlideData.path + 'annotations/' + item.annotation
 				return fetchJson(path).then((resp) => ({ ...item, resp }))
 			})
 		// Map of individual annotations (that can be used to check for existing maps)
@@ -144,7 +145,7 @@ export const vectorLayers = derived(selectedSlideData, ($selectedSlideData, set)
 			const resp = $selectedSlideData.frontmatter?.geojson
 				.filter((item) => item.filename)
 				.map((item) => {
-					const path = $selectedSlideData.path + 'geojsons/' + item.filename
+					const path = base + $selectedSlideData.path + 'geojsons/' + item.filename
 					return fetchJson(path).then((resp) => ({ ...item, resp, path }))
 				})
 			Promise.all(resp).then((data) => {
