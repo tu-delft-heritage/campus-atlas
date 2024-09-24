@@ -33,7 +33,6 @@
 
 <svelte:head>
 	<title>Campus Atlas</title>
-	<link rel="icon" type="image/png" href="/assets/icon.png" />
 </svelte:head>
 
 <div class="grid-container" style="height:{innerHeight}px;">
