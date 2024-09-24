@@ -1,1 +1,95 @@
-{"type":"FeatureCollection","features":[{"geometry":{"coordinates":[4.3675808,52.0079114],"type":"Point"},"properties":{"felt:clipSource":{},"felt:color":"#C93535","felt:id":"KfacfU29BRI2InlrZEqezrB","felt:locked":false,"felt:ordering":1720525350776931,"felt:parentId":"fMe7vEiNT5ika1lmqj8MGB","felt:symbol":"dot","felt:type":"Place","image":"https://dlc.services/iiif-img/7/6/67598893-a4e8-4766-818c-b039e7293db6/1275,3267,1522,1068/max/0/default.jpg","source":"TRK-9811201"},"type":"Feature"},{"geometry":{"coordinates":[[[4.3676069,52.0077192],[4.3675594,52.0077659],[4.3675695,52.0077895],[4.3675511,52.0078069],[4.367511,52.0078126],[4.3673442,52.0077465],[4.3673357,52.0077555],[4.3672234,52.0077121],[4.3672316,52.0077035],[4.3670342,52.0076286],[4.3670097,52.0076364],[4.3669849,52.0076268],[4.3669853,52.00761],[4.3667399,52.0075153],[4.3667299,52.0075247],[4.3666154,52.007481]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"39CpYEfjfRn9B3SJJI4AzkfB","felt:locked":false,"felt:ordering":1720525368397270,"felt:parentId":"fMe7vEiNT5ika1lmqj8MGB","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          4.3675808,
+          52.0079114
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "image": "https://dlc.services/iiif-img/7/6/67598893-a4e8-4766-818c-b039e7293db6/1275,3267,1522,1068/max/0/default.jpg",
+        "source": "TRK-9811201"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3676069,
+              52.0077192
+            ],
+            [
+              4.3675594,
+              52.0077659
+            ],
+            [
+              4.3675695,
+              52.0077895
+            ],
+            [
+              4.3675511,
+              52.0078069
+            ],
+            [
+              4.367511,
+              52.0078126
+            ],
+            [
+              4.3673442,
+              52.0077465
+            ],
+            [
+              4.3673357,
+              52.0077555
+            ],
+            [
+              4.3672234,
+              52.0077121
+            ],
+            [
+              4.3672316,
+              52.0077035
+            ],
+            [
+              4.3670342,
+              52.0076286
+            ],
+            [
+              4.3670097,
+              52.0076364
+            ],
+            [
+              4.3669849,
+              52.0076268
+            ],
+            [
+              4.3669853,
+              52.00761
+            ],
+            [
+              4.3667399,
+              52.0075153
+            ],
+            [
+              4.3667299,
+              52.0075247
+            ],
+            [
+              4.3666154,
+              52.007481
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    }
+  ]
+}

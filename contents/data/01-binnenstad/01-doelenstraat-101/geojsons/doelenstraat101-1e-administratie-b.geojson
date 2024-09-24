@@ -1,1 +1,45 @@
-{"type":"FeatureCollection","metadata":{"felt:id":"7fecf52b-f421-4a65-a39c-bddc5dfdf5fe","felt:version":1},"features":[{"geometry":{"coordinates":[[[4.360426,52.0157885],[4.3604813,52.0158118],[4.3605274,52.0157715]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"2d4624ac-6e8d-488c-ba79-cad04313c200","felt:locked":false,"felt:ordering":1715616906426191,"felt:parentId":"9680a2e3-2d88-46dc-8941-7c45d51674a9","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"},{"geometry":{"coordinates":[4.3604499,52.0157547],"type":"Point"},"properties":{"felt:clipSource":{},"felt:color":"#C93535","felt:id":"dfe1f57f-2e9a-42b1-a6d2-da211b633114","felt:locked":false,"felt:ordering":1715616917859341,"felt:parentId":"9680a2e3-2d88-46dc-8941-7c45d51674a9","felt:symbol":"dot","felt:type":"Place","image":"https://dlc.services/iiif-img/7/6/c916c027-e27e-4288-9266-ebbb446d0459/1483,648,1843,1416/max/0/default.jpg","source":"bibliotheek-der-technische-hoogeschool-1939-1942"},"type":"Feature"}]}
+{
+  "type": "FeatureCollection",
+  "metadata": {
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.360426,
+              52.0157885
+            ],
+            [
+              4.3604813,
+              52.0158118
+            ],
+            [
+              4.3605274,
+              52.0157715
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.3604499,
+          52.0157547
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "image": "https://dlc.services/iiif-img/7/6/c916c027-e27e-4288-9266-ebbb446d0459/1483,648,1843,1416/max/0/default.jpg",
+        "source": "bibliotheek-der-technische-hoogeschool-1939-1942"
+      },
+      "type": "Feature"
+    }
+  ]
+}

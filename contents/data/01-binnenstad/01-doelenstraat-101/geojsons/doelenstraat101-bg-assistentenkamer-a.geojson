@@ -1,1 +1,43 @@
-{"type":"FeatureCollection","metadata":{"felt:id":"7fecf52b-f421-4a65-a39c-bddc5dfdf5fe","felt:version":1},"features":[{"geometry":{"coordinates":[[[4.3603124,52.01574],[4.3603699,52.0156875],[4.3605394,52.0157605],[4.3604804,52.0158128],[4.3603124,52.01574]]],"type":"Polygon"},"properties":{"name":"Doelenstraat101 bg assistent kamer a","felt:color":"#C93535","felt:fillOpacity":0.25,"felt:id":"7c22def7-6446-4efc-ae16-03db2a9460bb","felt:locked":false,"felt:ordering":1715614649206094,"felt:parentId":"2b82fcfe-302f-4431-9c34-eaa42330e1df","felt:showArea":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":2,"felt:type":"Polygon","image":"https://dlc.services/iiif-img/7/6/6b71e2a2-7a68-4c55-9554-ecc65aabf3fc/1339,678,1987,1408/max/0/default.jpg","source":"bibliotheek-der-technische-hoogeschool-1939-1942"},"type":"Feature"}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.360361,
+              52.0157609
+            ],
+            [
+              4.3603129,
+              52.0157401
+            ],
+            [
+              4.360352,
+              52.0157049
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.360432,
+          52.0157405
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "image": "https://dlc.services/iiif-img/7/6/6b71e2a2-7a68-4c55-9554-ecc65aabf3fc/1339,678,1987,1408/max/0/default.jpg",
+        "source": "bibliotheek-der-technische-hoogeschool-1939-1942"
+      },
+      "type": "Feature"
+    }
+  ]
+}

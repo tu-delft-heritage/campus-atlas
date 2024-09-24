@@ -1,1 +1,55 @@
-{"type":"FeatureCollection","features":[{"geometry":{"coordinates":[4.3672994,52.0072848],"type":"Point"},"properties":{"felt:clipSource":{},"felt:color":"#C93535","felt:id":"gfZ0rstyR6aMzCergT8xMD","felt:locked":false,"felt:ordering":1720527857392218,"felt:parentId":"n9ApoVQ8yQUKZXb4iFMXI9AC","felt:symbol":"dot","felt:type":"Place","image":"https://dlc.services/iiif-img/7/6/67598893-a4e8-4766-818c-b039e7293db6/785,767,2580,1847/max/0/default.jpg","source":"TRK-9811201"},"type":"Feature"},{"geometry":{"coordinates":[[[4.367266,52.0073116],[4.3672547,52.0073071],[4.3672571,52.0073048],[4.3671653,52.0072672],[4.3671623,52.0072694],[4.3671416,52.0072616]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"apavrkmdSMGf0V9A9BsyQ4DC","felt:locked":false,"felt:ordering":1720527864375744,"felt:parentId":"n9ApoVQ8yQUKZXb4iFMXI9AC","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          4.3672994,
+          52.0072848
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "image": "https://dlc.services/iiif-img/7/6/67598893-a4e8-4766-818c-b039e7293db6/785,767,2580,1847/max/0/default.jpg",
+        "source": "TRK-9811201"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.367266,
+              52.0073116
+            ],
+            [
+              4.3672547,
+              52.0073071
+            ],
+            [
+              4.3672571,
+              52.0073048
+            ],
+            [
+              4.3671653,
+              52.0072672
+            ],
+            [
+              4.3671623,
+              52.0072694
+            ],
+            [
+              4.3671416,
+              52.0072616
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    }
+  ]
+}

@@ -1,1 +1,49 @@
-{"type":"FeatureCollection","metadata":{"felt:id":"7fecf52b-f421-4a65-a39c-bddc5dfdf5fe","felt:version":1},"features":[{"geometry":{"coordinates":[[[4.3598775,52.0159471],[4.3598688,52.015955],[4.3599501,52.0159899],[4.3599585,52.0159821]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"3dae7467-ead9-4df7-b932-a20c27244b54","felt:locked":false,"felt:ordering":1715613901250050,"felt:parentId":"7de333b9-ccde-456d-aa6a-1bde931aa5a3","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"},{"geometry":{"coordinates":[4.3599602,52.0159502],"type":"Point"},"properties":{"felt:clipSource":{},"felt:color":"#C93535","felt:id":"b0d3ed89-de63-428f-abc6-1a8c1b45ee7b","felt:locked":false,"felt:ordering":1715613915189899,"felt:parentId":"7de333b9-ccde-456d-aa6a-1bde931aa5a3","felt:symbol":"dot","felt:type":"Place","image":"https://dlc.services/iiif-img/7/35/788b39ef-8c42-43cc-9f73-7ee1cc6020c6/260,283,3532,2448/max/0/default.jpg"},"type":"Feature"}]}
+{
+  "type": "FeatureCollection",
+  "metadata": {
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3598775,
+              52.0159471
+            ],
+            [
+              4.3598688,
+              52.015955
+            ],
+            [
+              4.3599501,
+              52.0159899
+            ],
+            [
+              4.3599585,
+              52.0159821
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.3599602,
+          52.0159502
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "image": "https://dlc.services/iiif-img/7/35/788b39ef-8c42-43cc-9f73-7ee1cc6020c6/260,283,3532,2448/max/0/default.jpg",
+        "source": "TMD.2006.0020"
+      },
+      "type": "Feature"
+    }
+  ]
+}

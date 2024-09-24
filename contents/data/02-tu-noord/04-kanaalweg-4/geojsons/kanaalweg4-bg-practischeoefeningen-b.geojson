@@ -1,1 +1,47 @@
-{"type":"FeatureCollection","features":[{"geometry":{"coordinates":[4.3688822,52.0084338],"type":"Point"},"properties":{"felt:clipSource":{},"felt:color":"#C93535","felt:id":"IrhsFmxLSw9BWVpR5R3AyhA","felt:locked":false,"felt:ordering":1720097619834120,"felt:parentId":"sEhWpjNqQ1yjnIDv5gxKyC","felt:symbol":"dot","felt:type":"Place","image":"https://dlc.services/iiif-img/7/6/a49b037f-6a58-404a-8120-050a080b7121/1600,394,930,1267/max/90/default.jpg","source":"Gedenkschrift van de Koninklijke Academie en van de Polytechnische School"},"type":"Feature"},{"geometry":{"coordinates":[[[4.3689548,52.008431],[4.3689763,52.0084102],[4.3689123,52.008386],[4.3688677,52.0084298]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"VoTo2TsLSyWy0Rfj6QuOmB","felt:locked":false,"felt:ordering":1720097644152412,"felt:parentId":"sEhWpjNqQ1yjnIDv5gxKyC","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          4.3688822,
+          52.0084338
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "image": "https://dlc.services/iiif-img/7/6/a49b037f-6a58-404a-8120-050a080b7121/1600,394,930,1267/max/90/default.jpg",
+        "source": "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3689548,
+              52.008431
+            ],
+            [
+              4.3689763,
+              52.0084102
+            ],
+            [
+              4.3689123,
+              52.008386
+            ],
+            [
+              4.3688677,
+              52.0084298
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    }
+  ]
+}

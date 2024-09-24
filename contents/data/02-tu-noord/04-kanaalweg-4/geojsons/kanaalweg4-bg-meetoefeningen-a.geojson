@@ -10,14 +10,6 @@
         "type": "Point"
       },
       "properties": {
-        "felt:clipSource": {},
-        "felt:color": "#C93535",
-        "felt:id": "9BzdQ3cz6S7alkfsQ282TkC",
-        "felt:locked": false,
-        "felt:ordering": 1720089615680519,
-        "felt:parentId": "sl1z9AB7PR9ACwG8rqkgy6YD",
-        "felt:symbol": "dot",
-        "felt:type": "Place",
         "image": "https://dlc.services/iiif-img/7/35/0eb2a08f-1492-477d-8a86-05d2a84e0de2/548,182,4888,3536/max/0/default.jpg",
         "source": "TMD.2006.0018"
       },
@@ -52,17 +44,6 @@
         "type": "MultiLineString"
       },
       "properties": {
-        "felt:color": "#C93535",
-        "felt:id": "3lKqpaEcS32WDmhs9BrdHwD",
-        "felt:locked": false,
-        "felt:ordering": 1720089621453334,
-        "felt:parentId": "sl1z9AB7PR9ACwG8rqkgy6YD",
-        "felt:routeMode": "NONE",
-        "felt:showLength": false,
-        "felt:strokeOpacity": 1,
-        "felt:strokeStyle": "solid",
-        "felt:strokeWidth": 4,
-        "felt:type": "Path"
       },
       "type": "Feature"
     },
@@ -87,17 +68,6 @@
         "type": "MultiLineString"
       },
       "properties": {
-        "felt:color": "#C93535",
-        "felt:id": "ULI42bWlT2a9BS82GC9AEzZC",
-        "felt:locked": false,
-        "felt:ordering": 1720089641100188,
-        "felt:parentId": "sl1z9AB7PR9ACwG8rqkgy6YD",
-        "felt:routeMode": "NONE",
-        "felt:showLength": false,
-        "felt:strokeOpacity": 1,
-        "felt:strokeStyle": "solid",
-        "felt:strokeWidth": 4,
-        "felt:type": "Path"
       },
       "type": "Feature"
     }

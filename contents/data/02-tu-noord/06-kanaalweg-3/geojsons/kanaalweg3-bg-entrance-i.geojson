@@ -1,1 +1,111 @@
-{"type":"FeatureCollection","features":[{"geometry":{"coordinates":[4.3673941,52.0065008],"type":"Point"},"properties":{"felt:clipSource":{},"felt:color":"#C93535","felt:id":"GIogRTQPR3eCrlDniE1PFA","felt:locked":false,"felt:ordering":1720526437397900,"felt:parentId":"UyfEHwmlSOyYMx2kpa1eZA","felt:symbol":"dot","felt:type":"Place","image":"https://dlc.services/iiif-img/7/6/c39e104a-d664-466f-8929-22b0a8c1543a/1155,537,1813,1219/max/0/default.jpg","source":"TRK-9811201"},"type":"Feature"},{"geometry":{"coordinates":[[[4.3667311,52.0069089],[4.3669371,52.0069891]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"7m47aIvNQ5OkSCqNc1baDD","felt:locked":false,"felt:ordering":1720526445822339,"felt:parentId":"UyfEHwmlSOyYMx2kpa1eZA","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"},{"geometry":{"coordinates":[[[4.3670529,52.0070385],[4.3672173,52.0071021]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"VAin39A0fQXaHHwHJSYXSkB","felt:locked":false,"felt:ordering":1720526476804870,"felt:parentId":"UyfEHwmlSOyYMx2kpa1eZA","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"},{"geometry":{"coordinates":[[[4.3671989,52.0072131],[4.3672524,52.0072345],[4.3672775,52.0072105],[4.3673154,52.0072259],[4.3672931,52.0072495],[4.3673317,52.0072649],[4.367402,52.0071938],[4.3674107,52.0071971],[4.3675239,52.0070851],[4.3677597,52.0071764]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"8Xs0JGIlSzOGW4EWLFoj8B","felt:locked":false,"felt:ordering":1720526486430498,"felt:parentId":"UyfEHwmlSOyYMx2kpa1eZA","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          4.3673941,
+          52.0065008
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "image": "https://dlc.services/iiif-img/7/6/c39e104a-d664-466f-8929-22b0a8c1543a/1155,537,1813,1219/max/0/default.jpg",
+        "source": "TRK-9811201"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3667311,
+              52.0069089
+            ],
+            [
+              4.3669371,
+              52.0069891
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3670529,
+              52.0070385
+            ],
+            [
+              4.3672173,
+              52.0071021
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3671989,
+              52.0072131
+            ],
+            [
+              4.3672524,
+              52.0072345
+            ],
+            [
+              4.3672775,
+              52.0072105
+            ],
+            [
+              4.3673154,
+              52.0072259
+            ],
+            [
+              4.3672931,
+              52.0072495
+            ],
+            [
+              4.3673317,
+              52.0072649
+            ],
+            [
+              4.367402,
+              52.0071938
+            ],
+            [
+              4.3674107,
+              52.0071971
+            ],
+            [
+              4.3675239,
+              52.0070851
+            ],
+            [
+              4.3677597,
+              52.0071764
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    }
+  ]
+}

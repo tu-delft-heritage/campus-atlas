@@ -1,1 +1,105 @@
-{"type":"FeatureCollection","metadata":{"felt:id":"7fecf52b-f421-4a65-a39c-bddc5dfdf5fe","felt:version":1},"features":[{"geometry":{"coordinates":[[[4.3602061,52.0156328],[4.3600224,52.0157954]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"126c832b-45a5-4346-a746-f4de4db81245","felt:locked":false,"felt:ordering":1715613435766379,"felt:parentId":"4efcb7a8-bc3d-4ca8-a853-b070fa9c94b8","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"},{"geometry":{"coordinates":[[[4.3599976,52.015805],[4.3599304,52.0158639],[4.3599502,52.0158725],[4.359856,52.0159558],[4.3599525,52.0159976]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"040db9d4-d4a7-477f-8202-e68f74b8565a","felt:locked":false,"felt:ordering":1715613448267620,"felt:parentId":"4efcb7a8-bc3d-4ca8-a853-b070fa9c94b8","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"},{"geometry":{"coordinates":[[[4.3601742,52.0160002],[4.3601468,52.0160249],[4.3602056,52.0160501],[4.3602009,52.0160539],[4.3605752,52.0162105]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"51c24d01-f96c-459c-b653-351197eabb06","felt:locked":false,"felt:ordering":1715613480977723,"felt:parentId":"4efcb7a8-bc3d-4ca8-a853-b070fa9c94b8","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"},{"geometry":{"coordinates":[4.3595947,52.0160105],"type":"Point"},"properties":{"felt:clipSource":{},"felt:color":"#C93535","felt:id":"7937cab4-21e1-43cd-909f-2afbe8e56b55","felt:locked":false,"felt:ordering":1715613522614750,"felt:parentId":"4efcb7a8-bc3d-4ca8-a853-b070fa9c94b8","felt:symbol":"dot","felt:type":"Place","image":"https://dlc.services/iiif-img/7/35/7885ac10-5114-44c0-9a34-a57a078a728f/243,218,3572,2480/max/0/default.jpg","source":"TMD.2006.0020"},"type":"Feature"}]}
+{
+  "type": "FeatureCollection",
+  "metadata": {
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3602061,
+              52.0156328
+            ],
+            [
+              4.3600224,
+              52.0157954
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3599976,
+              52.015805
+            ],
+            [
+              4.3599304,
+              52.0158639
+            ],
+            [
+              4.3599502,
+              52.0158725
+            ],
+            [
+              4.359856,
+              52.0159558
+            ],
+            [
+              4.3599525,
+              52.0159976
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3601742,
+              52.0160002
+            ],
+            [
+              4.3601468,
+              52.0160249
+            ],
+            [
+              4.3602056,
+              52.0160501
+            ],
+            [
+              4.3602009,
+              52.0160539
+            ],
+            [
+              4.3605752,
+              52.0162105
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.3595947,
+          52.0160105
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "image": "https://dlc.services/iiif-img/7/35/7885ac10-5114-44c0-9a34-a57a078a728f/243,218,3572,2480/max/0/default.jpg",
+        "source": "TMD.2006.0020"
+      },
+      "type": "Feature"
+    }
+  ]
+}

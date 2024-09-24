@@ -1,1 +1,47 @@
-{"type":"FeatureCollection","metadata":{"felt:id":"7fecf52b-f421-4a65-a39c-bddc5dfdf5fe","felt:version":1},"features":[{"geometry":{"coordinates":[[[4.3600148,52.0158129],[4.3601634,52.0156801],[4.3602582,52.0157206],[4.3601094,52.0158529],[4.3600148,52.0158129]]],"type":"Polygon"},"properties":{"name":"Doelenstraat101 1e expositie zaal a","felt:color":"#C93535","felt:fillOpacity":0.25,"felt:id":"5b92ef2b-0d05-4153-aa00-de94c8274119","felt:locked":false,"felt:ordering":1715614649202761,"felt:parentId":"2b82fcfe-302f-4431-9c34-eaa42330e1df","felt:showArea":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":2,"felt:type":"Polygon","image":"https://dlc.services/iiif-img/7/35/6071344c-4ce6-4d9b-a85a-57d2b64d8bd5/285,255,3492,2416/max/0/default.jpg","source":"TMD.2006.0020"},"type":"Feature"}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3601502,
+              52.0158168
+            ],
+            [
+              4.3602583,
+              52.0157207
+            ],
+            [
+              4.3601635,
+              52.0156803
+            ],
+            [
+              4.3601069,
+              52.0157305
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.3600523,
+          52.0158106
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "image": "https://dlc.services/iiif-img/7/35/6071344c-4ce6-4d9b-a85a-57d2b64d8bd5/285,255,3492,2416/max/0/default.jpg",
+        "source": "TMD.2006.0020"
+      },
+      "type": "Feature"
+    }
+  ]
+}

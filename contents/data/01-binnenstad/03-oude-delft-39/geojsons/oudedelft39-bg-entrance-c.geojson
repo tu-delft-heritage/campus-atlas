@@ -1,1 +1,45 @@
-{"type":"FeatureCollection","metadata":{"felt:id":"7fecf52b-f421-4a65-a39c-bddc5dfdf5fe","felt:version":1},"features":[{"geometry":{"coordinates":[[[4.35942,52.0069616],[4.3595053,52.0068656],[4.3597141,52.0066319]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"888ed04e-1842-4226-b2bf-f72ed90f33f3","felt:locked":false,"felt:ordering":1714734723328733,"felt:parentId":"cedeb215-673a-4488-88ed-be8ecca165b4","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"},{"geometry":{"coordinates":[4.3599973,52.0067084],"type":"Point"},"properties":{"felt:clipSource":{},"felt:color":"#C93535","felt:id":"58545ced-f9cb-4ea4-9e6a-37a44c5e2fbf","felt:locked":false,"felt:ordering":1714734769389247,"felt:parentId":"cedeb215-673a-4488-88ed-be8ecca165b4","felt:symbol":"dot","felt:type":"Place","image":"https://dlc.services/iiif-img/7/6/d82984f9-6afc-4f41-a97b-7100ff8f9f6b/365,366,1245,1055/max/0/default.jpg","source":"TMD.2002.0527"},"type":"Feature"}]}
+{
+  "type": "FeatureCollection",
+  "metadata": {
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.35942,
+              52.0069616
+            ],
+            [
+              4.3595053,
+              52.0068656
+            ],
+            [
+              4.3597141,
+              52.0066319
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.3599973,
+          52.0067084
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "image": "https://dlc.services/iiif-img/7/6/d82984f9-6afc-4f41-a97b-7100ff8f9f6b/365,366,1245,1055/max/0/default.jpg",
+        "source": "TMD.2002.0527"
+      },
+      "type": "Feature"
+    }
+  ]
+}

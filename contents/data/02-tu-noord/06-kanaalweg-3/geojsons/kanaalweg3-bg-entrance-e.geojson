@@ -1,1 +1,79 @@
-{"type":"FeatureCollection","features":[{"geometry":{"coordinates":[4.3664382,52.008169],"type":"Point"},"properties":{"felt:clipSource":{},"felt:color":"#C93535","felt:id":"mappX7Z6QrK0XbLiTuXKpC","felt:locked":false,"felt:ordering":1720524662244634,"felt:parentId":"d2NHcm60Ri9ByYfjy8DvepB","felt:symbol":"dot","felt:type":"Place","image":"https://dlc.services/iiif-img/7/6/f0ed81bd-6a9d-4e38-9101-742096716a99/877,499,2475,1872/max/0/default.jpg","source":"TRK-9811201"},"type":"Feature"},{"geometry":{"coordinates":[[[4.3666158,52.0074811],[4.3667288,52.0075242],[4.3667381,52.0075153],[4.3669848,52.0076105],[4.3669848,52.0076276],[4.3670103,52.0076372],[4.367034,52.0076297],[4.367231,52.007704],[4.3672239,52.0077121],[4.3673334,52.0077547],[4.3673429,52.0077457],[4.3673646,52.007754]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"nBNegMyxT9Bm53gchuy9CiXA","felt:locked":false,"felt:ordering":1720524671614197,"felt:parentId":"d2NHcm60Ri9ByYfjy8DvepB","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          4.3664382,
+          52.008169
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "image": "https://dlc.services/iiif-img/7/6/f0ed81bd-6a9d-4e38-9101-742096716a99/877,499,2475,1872/max/0/default.jpg",
+        "source": "TRK-9811201"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3666158,
+              52.0074811
+            ],
+            [
+              4.3667288,
+              52.0075242
+            ],
+            [
+              4.3667381,
+              52.0075153
+            ],
+            [
+              4.3669848,
+              52.0076105
+            ],
+            [
+              4.3669848,
+              52.0076276
+            ],
+            [
+              4.3670103,
+              52.0076372
+            ],
+            [
+              4.367034,
+              52.0076297
+            ],
+            [
+              4.367231,
+              52.007704
+            ],
+            [
+              4.3672239,
+              52.0077121
+            ],
+            [
+              4.3673334,
+              52.0077547
+            ],
+            [
+              4.3673429,
+              52.0077457
+            ],
+            [
+              4.3673646,
+              52.007754
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    }
+  ]
+}

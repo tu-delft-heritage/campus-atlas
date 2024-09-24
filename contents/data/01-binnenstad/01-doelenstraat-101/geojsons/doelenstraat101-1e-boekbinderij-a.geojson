@@ -1,1 +1,43 @@
-{"type":"FeatureCollection","metadata":{"felt:id":"7fecf52b-f421-4a65-a39c-bddc5dfdf5fe","felt:version":1},"features":[{"geometry":{"coordinates":[[[4.3601577,52.0158785],[4.3603192,52.0159467],[4.3602632,52.0159978],[4.3600999,52.0159289],[4.3601577,52.0158785]]],"type":"Polygon"},"properties":{"name":"Doelenstraat101 1e boek binderij a","felt:color":"#C93535","felt:fillOpacity":0.25,"felt:id":"d268cfbe-8a5e-4dd7-b13a-bb4890aeca5c","felt:locked":false,"felt:ordering":1715614649182761,"felt:parentId":"2b82fcfe-302f-4431-9c34-eaa42330e1df","felt:showArea":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":2,"felt:type":"Polygon","image":"https://dlc.services/iiif-img/7/35/7471bf66-f570-4ae0-8666-561a4d401854/296,329,3436,2376/max/0/default.jpg","source":"TMD.2006.0020"},"type":"Feature"}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3602567,
+              52.0159203
+            ],
+            [
+              4.3601569,
+              52.015878
+            ],
+            [
+              4.3601024,
+              52.0159263
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.360215,
+          52.0159706
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "image": "https://dlc.services/iiif-img/7/35/7471bf66-f570-4ae0-8666-561a4d401854/296,329,3436,2376/max/0/default.jpg",
+        "source": "TMD.2006.0020"
+      },
+      "type": "Feature"
+    }
+  ]
+}

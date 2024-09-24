@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3685271,
+              52.0084887
+            ],
+            [
+              4.3685988,
+              52.0084189
+            ],
+            [
+              4.3688698,
+              52.0085224
+            ],
+            [
+              4.3687984,
+              52.0085937
+            ],
+            [
+              4.3685271,
+              52.0084887
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "name": "Kanaalweg 4 bg collegezaal"
+      },
+      "type": "Feature"
+    }
+  ]
+}

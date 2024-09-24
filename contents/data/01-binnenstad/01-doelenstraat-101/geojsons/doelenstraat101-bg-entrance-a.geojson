@@ -1,1 +1,69 @@
-{"type":"FeatureCollection","metadata":{"felt:id":"7fecf52b-f421-4a65-a39c-bddc5dfdf5fe","felt:version":1},"features":[{"geometry":{"coordinates":[[[4.3602062,52.0156328],[4.3600085,52.0158084]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"91ce206d-a05b-487a-835b-b6d842b4465e","felt:locked":false,"felt:ordering":1715613304699608,"felt:parentId":"652aaf17-c82a-4bc6-93a5-ceeb3dbbfd34","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"},{"geometry":{"coordinates":[[[4.3599976,52.0158049],[4.3599302,52.0158642],[4.3599496,52.0158729],[4.3598564,52.0159555]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"0b0500e1-7349-47b7-ba3c-e7721b2c0907","felt:locked":false,"felt:ordering":1715613314594088,"felt:parentId":"652aaf17-c82a-4bc6-93a5-ceeb3dbbfd34","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"},{"geometry":{"coordinates":[4.3595966,52.0159554],"type":"Point"},"properties":{"felt:clipSource":{},"felt:color":"#C93535","felt:id":"8fb1fd37-fbf0-47e5-b38c-05950ecd41e2","felt:locked":false,"felt:ordering":1715613332526845,"felt:parentId":"652aaf17-c82a-4bc6-93a5-ceeb3dbbfd34","felt:symbol":"dot","felt:type":"Place","image":"https://dlc.services/iiif-img/7/35/1d58c207-39c6-422f-8006-a3960c9846e0/193,508,3624,4832/max/0/default.jpg","source":"TMD.2006.0020"},"type":"Feature"}]}
+{
+  "type": "FeatureCollection",
+  "metadata": {
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3602062,
+              52.0156328
+            ],
+            [
+              4.3600085,
+              52.0158084
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3599976,
+              52.0158049
+            ],
+            [
+              4.3599302,
+              52.0158642
+            ],
+            [
+              4.3599496,
+              52.0158729
+            ],
+            [
+              4.3598564,
+              52.0159555
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.3595966,
+          52.0159554
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "image": "https://dlc.services/iiif-img/7/35/1d58c207-39c6-422f-8006-a3960c9846e0/193,508,3624,4832/max/0/default.jpg",
+        "source": "TMD.2006.0020"
+      },
+      "type": "Feature"
+    }
+  ]
+}
