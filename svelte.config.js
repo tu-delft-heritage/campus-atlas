@@ -8,6 +8,7 @@ const config = {
 	preprocess: vitePreprocess(),
 	kit: {
 		adapter: adapter(),
+		paths: { base: '/campus-atlas' },
 		files: {
 			assets: 'contents'
 		}
