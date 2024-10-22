@@ -1,0 +1,227 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/3bf1c898d3aa2d22",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2024-10-18T09:45:38.741Z",
+      "modified": "2024-10-18T09:45:38.741Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://dlc.services/iiif-img/v3/7/6/5b56a22d-d6a0-483f-a063-f0ffa9bf02a3",
+          "type": "ImageService3",
+          "height": 3529,
+          "width": 2501,
+          "partOf": [
+            {
+              "id": "https://dlc.services/iiif-img/7/6/5b56a22d-d6a0-483f-a063-f0ffa9bf02a3/canvas/c/81",
+              "type": "Canvas",
+              "label": {
+                "en": [
+                  "Canvas 81"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://heritage.tudelft.nl/iiif/manifests/tresorleeszaal-839007461/manifest.json",
+                  "type": "Manifest",
+                  "label": {
+                    "none": [
+                      "De huisvesting van de afdeling Bouwkunde aan de T.H. te Delft vanaf 1843-1971. Een bijdrage tot de geschiedenis van de Technische Hogeschool te Delft / W. Annema"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"2501\" height=\"3529\"><polygon points=\"692,2795 466,2775 451,2057 628,2058 637,1260 521,1256 503,393 754,394 750,729 1703,747 1709,411 1960,414 1953,747 1943,1715 1923,2861 1705,2853 1711,2560 1370,2553 1371,2563 1027,2555 1031,2547 698,2539\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1707,
+                747
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.3570185,
+                52.00945
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1956,
+                414
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.3569336,
+                52.0094489
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                753,
+                728
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.3571273,
+                52.0093439
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                625,
+                2046
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.3573805,
+                52.0094125
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                698,
+                2538
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.3574588,
+                52.0094623
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1712,
+                2563
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.3573467,
+                52.0095765
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                466,
+                2778
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.3575309,
+                52.0094521
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1923,
+                2860
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.3573792,
+                52.0096185
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                503,
+                390
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.3571023,
+                52.0092896
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/3bf1c898d3aa2d22",
+          "version": "https://annotations.allmaps.org/maps/3bf1c898d3aa2d22@11383bf475916eac",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/dbbcd37e5df09118",
+            "version": "https://annotations.allmaps.org/images/dbbcd37e5df09118@982aaaa57b5ca0ac",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/e05ddec13426cc77",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/f9475bdb4c98de26"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 68.370788,
+          "area": 601.4
+        }
+      }
+    }
+  ]
+}

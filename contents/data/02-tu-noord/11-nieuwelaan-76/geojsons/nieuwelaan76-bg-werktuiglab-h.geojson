@@ -1,1 +1,66 @@
-{"type":"FeatureCollection","features":[{"geometry":{"coordinates":[4.3665979,52.0092172],"type":"Point"},"properties":{"felt:clipSource":{},"felt:color":"#C93535","felt:id":"qG8berRATb9BAYFepEYnwkB","felt:locked":false,"felt:ordering":1727021996608859,"felt:parentId":"BF59BowVFR7S3LGsGqoyaZB","felt:symbol":"dot","felt:type":"Place","image":"https://dlc.services/iiif-img/7/35/d5b2f97c-9341-4fa4-a8ae-ed7ae8abecaf/592,160,4840,3504/max/0/default.jpg","source":"TMD.2006.0019"},"type":"Feature"},{"geometry":{"coordinates":[[[4.3666531,52.0093234],[4.3668061,52.0093849],[4.3669214,52.0092783],[4.3667598,52.0092111]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"cXsDHjFgS9B6jQ6eYp42BxD","felt:locked":false,"felt:ordering":1727022016213730,"felt:parentId":"BF59BowVFR7S3LGsGqoyaZB","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          4.3665979,
+          52.0092172
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "felt:clipSource": {},
+        "felt:color": "#C93535",
+        "felt:id": "qG8berRATb9BAYFepEYnwkB",
+        "felt:locked": false,
+        "felt:ordering": 1727021996608859,
+        "felt:parentId": "BF59BowVFR7S3LGsGqoyaZB",
+        "felt:symbol": "dot",
+        "felt:type": "Place",
+        "image": "https://dlc.services/iiif-img/7/35/d5b2f97c-9341-4fa4-a8ae-ed7ae8abecaf/592,160,4840,3504/max/0/default.jpg",
+        "source": "TMD.2006.0019"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3666531,
+              52.0093234
+            ],
+            [
+              4.3668061,
+              52.0093849
+            ],
+            [
+              4.3669214,
+              52.0092783
+            ],
+            [
+              4.3667598,
+              52.0092111
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+        "felt:color": "#C93535",
+        "felt:id": "cXsDHjFgS9B6jQ6eYp42BxD",
+        "felt:locked": false,
+        "felt:ordering": 1727022016213730,
+        "felt:parentId": "BF59BowVFR7S3LGsGqoyaZB",
+        "felt:routeMode": "NONE",
+        "felt:showLength": false,
+        "felt:strokeOpacity": 1,
+        "felt:strokeStyle": "solid",
+        "felt:strokeWidth": 4,
+        "felt:type": "Path"
+      },
+      "type": "Feature"
+    }
+  ]
+}

@@ -1,1 +1,82 @@
-{"type":"FeatureCollection","metadata":{"felt:id":"7fecf52b-f421-4a65-a39c-bddc5dfdf5fe","felt:version":1},"features":[{"geometry":{"coordinates":[[[4.3580295,52.0083506],[4.3580632,52.0083657],[4.3580726,52.0083654],[4.3580793,52.0083685],[4.3580819,52.0083745],[4.3581128,52.0083879],[4.3581053,52.0083944]]],"type":"MultiLineString"},"properties":{"felt:color":"#C93535","felt:id":"7f0464e9-9efc-4d48-a758-8213a03123ed","felt:locked":false,"felt:ordering":1715609431348002,"felt:parentId":"f6809aff-61f0-4191-9437-65f7c8fe8196","felt:routeMode":"NONE","felt:showLength":false,"felt:strokeOpacity":1,"felt:strokeStyle":"solid","felt:strokeWidth":4,"felt:type":"Path"},"type":"Feature"},{"geometry":{"coordinates":[4.3580237,52.0084029],"type":"Point"},"properties":{"felt:clipSource":{},"felt:color":"#C93535","felt:id":"7b89852e-52c2-4101-a64b-04ae6b7ddc67","felt:locked":false,"felt:ordering":1715609461107613,"felt:parentId":"f6809aff-61f0-4191-9437-65f7c8fe8196","felt:symbol":"dot","felt:type":"Place","image":"https://dlc.services/iiif-img/7/35/7e820a66-5cc8-44f4-879d-e5177e9aebc3/185,620,3640,4736/max/0/default.jpg","source":"TMD.2006.0019"},"type":"Feature"}]}
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "felt:id": "7fecf52b-f421-4a65-a39c-bddc5dfdf5fe",
+    "felt:version": 1
+  },
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.3580295,
+              52.0083506
+            ],
+            [
+              4.3580632,
+              52.0083657
+            ],
+            [
+              4.3580726,
+              52.0083654
+            ],
+            [
+              4.3580793,
+              52.0083685
+            ],
+            [
+              4.3580819,
+              52.0083745
+            ],
+            [
+              4.3581128,
+              52.0083879
+            ],
+            [
+              4.3581053,
+              52.0083944
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {
+        "felt:color": "#C93535",
+        "felt:id": "7f0464e9-9efc-4d48-a758-8213a03123ed",
+        "felt:locked": false,
+        "felt:ordering": 1715609431348002,
+        "felt:parentId": "f6809aff-61f0-4191-9437-65f7c8fe8196",
+        "felt:routeMode": "NONE",
+        "felt:showLength": false,
+        "felt:strokeOpacity": 1,
+        "felt:strokeStyle": "solid",
+        "felt:strokeWidth": 4,
+        "felt:type": "Path"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.3580237,
+          52.0084029
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "felt:clipSource": {},
+        "felt:color": "#C93535",
+        "felt:id": "7b89852e-52c2-4101-a64b-04ae6b7ddc67",
+        "felt:locked": false,
+        "felt:ordering": 1715609461107613,
+        "felt:parentId": "f6809aff-61f0-4191-9437-65f7c8fe8196",
+        "felt:symbol": "dot",
+        "felt:type": "Place",
+        "image": "https://dlc.services/iiif-img/7/35/7e820a66-5cc8-44f4-879d-e5177e9aebc3/185,620,3640,4736/max/0/default.jpg",
+        "source": "TMD.2006.0019"
+      },
+      "type": "Feature"
+    }
+  ]
+}
