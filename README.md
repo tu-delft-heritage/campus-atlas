@@ -1,8 +1,8 @@
-# Project NL App
+# Campus Atlas
 
-This repository contains the source code for the application presenting the results of the fall 2023 Project NL design-research project of the [Berlage Center for Advanced Studies in Architecture and Urban Design](https://theberlage.nl/) of TU Delft.
+This repository contains the source code for the [Campus Atlas](https://tu-delft-heritage.github.io/campus-atlas/) presenting the history of the campus of TU Delft through a collection of plans, maps and photographs.
 
-The application showcases the possiblities of [IIIF](https://iiif.io) and [Allmaps](https://allmaps.org). See also [this repository](https://github.com/theberlage/allmaps-workshop) outlining the introductory workshop in the beginning of the semester.
+The application showcases the possiblities of [IIIF](https://iiif.io) and [Allmaps](https://allmaps.org). It is based on the [City Atlas](https://cityatlas.theberlage.nl/) application.
 
 ## File structure
 
@@ -32,7 +32,7 @@ The following file structure is used for the content (general introduction and i
 
 **Markdown with YAML frontmatter**
 
-Markdown is a markup language to add formatting to plain text. [See this guide for more information](https://www.markdownguide.org/basic-syntax/). Each markdown file starts with a metadata block (also called *frontmatter*) in the YAML format, set between `---`. YAML is a 'human friendly' format to store data, [here's a tutorial](https://spacelift.io/blog/yaml).
+Markdown is a markup language to add formatting to plain text. [See this guide for more information](https://www.markdownguide.org/basic-syntax/). Each markdown file starts with a metadata block (also called _frontmatter_) in the YAML format, set between `---`. YAML is a 'human friendly' format to store data, [here's a tutorial](https://spacelift.io/blog/yaml).
 
 Each slide contains the following frontmatter:
 
