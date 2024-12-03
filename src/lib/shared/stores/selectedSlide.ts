@@ -7,18 +7,6 @@ export let selectedChapter = writable<string | undefined>(undefined)
 export let selectedSlideShow = writable<string | undefined>(undefined)
 export let selectedSlideIndex = writable<number>(0)
 
-selectedChapter.subscribe((value) => {
-	console.log('selectedChapter', value)
-})
-
-selectedSlideShow.subscribe((value) => {
-	console.log('selectedSlideShow', value)
-})
-
-selectedSlideIndex.subscribe((value) => {
-	console.log('selectedSlideIndex', value)
-})
-
 const selectedChapterData = derived(
 	[slideData, selectedChapter],
 	([$slideData, $selectedChapter]) => {
@@ -28,11 +16,9 @@ const selectedChapterData = derived(
 	}
 )
 
-export const black = writable<boolean>(true)
-
-// export const black = derived(selectedChapter, ($selectedChapter) =>
-// 	$selectedChapter === 'documentation' ? true : false
-// )
+export const black = derived(selectedChapter, ($selectedChapter) =>
+	$selectedChapter === 'documentation' ? true : false
+)
 
 export const textColor = derived(selectedChapter, ($selectedChapter) =>
 	$selectedChapter === 'documentation' ? 'rgb(119, 63, 63)' : 'rgb(53, 110, 79)'
@@ -81,6 +67,20 @@ export const selectedSlideData = derived(
 	}
 )
 
+const processAnnotation = (annotation: any, metadata: any) => {
+	annotation.properties = {
+		transformation: metadata.transformation,
+		opacity: metadata.opacity,
+		saturation: metadata.saturation,
+		colorize: metadata.colorize,
+		removeBackground: {
+			color: metadata.removeBackground?.color,
+			threshold: metadata.removeBackground?.threshold,
+			hardness: metadata.removeBackground?.hardness
+		}
+	}
+}
+
 // Fetch georeference annotations of selected slide
 // Initial value is undefined
 // https://www.reddit.com/r/sveltejs/comments/tetq8w/what_is_a_good_practise_for_fetching_data_and/
@@ -102,29 +102,13 @@ export const georefAnnotations = derived(selectedSlideData, ($selectedSlideData,
 			const map = new Map()
 			for (const item of data) {
 				if (item.resp.type === 'Annotation') {
-					item.resp.properties = {
-						opacity: item.opacity,
-						saturation: item.saturation,
-						colorize: item.colorize,
-						removeBackground: {
-							color: item.removeBackground?.color,
-							threshold: item.removeBackground?.threshold,
-							hardness: item.removeBackground?.hardness
-						}
-					}
+					// Single annotation
+					processAnnotation(item.resp, item)
 					map.set(item.resp.id, item.resp)
 				} else {
+					// AnnotationPage
 					for (const annotation of item.resp.items) {
-						annotation.properties = {
-							opacity: item.opacity,
-							saturation: item.saturation,
-							colorize: item.colorize,
-							removeBackground: {
-								color: item.removeBackground?.color,
-								threshold: item.removeBackground?.threshold,
-								hardness: item.removeBackground?.hardness
-							}
-						}
+						processAnnotation(annotation, item)
 						map.set(annotation.id, annotation)
 					}
 				}
@@ -136,6 +120,36 @@ export const georefAnnotations = derived(selectedSlideData, ($selectedSlideData,
 		set(new Map())
 	}
 })
+
+const processFeature = (feature: any, metadata: any) => {
+	const properties = feature.properties
+	// Delete id property in case of duplicate ids
+	delete feature.id
+	// Add geojson path to each feature to check for existing features
+	feature.properties.collection = metadata.path
+	// Replace for the lines below to add labels from the frontmatter
+	properties.label = properties?.label || properties?.name || metadata.label
+	// Parse Felt colors
+	if ('felt:color' in properties) {
+		properties.fill = properties['felt:color']
+		properties.stroke = properties['felt:color']
+	}
+	if ('felt:fillOpacity' in properties) {
+		properties['fill-opacity'] = properties['felt:fillOpacity']
+	}
+	// if ('felt:strokeOpacity' in properties) {
+	// 	properties['stroke-opacity'] = properties['felt:fillOpacity']
+	// }
+	if ('felt:strokeWidth' in properties) {
+		properties['stroke-width'] = properties['felt:strokeWidth']
+	}
+	const strokeStyle = properties['felt:strokeStyle']
+	if (strokeStyle === 'dashed') {
+		properties.strokeStyle = [4, 8]
+	} else if (strokeStyle === 'dotted') {
+		properties.strokeStyle = [0, 4]
+	}
+}
 
 // Fetch geojsons of selected slide
 // Initial value is undefined
@@ -152,30 +166,10 @@ export const vectorLayers = derived(selectedSlideData, ($selectedSlideData, set)
 				const map = new Map()
 				for (const item of data) {
 					if (item.resp.type === 'Feature') {
-						const properties = item.resp.properties
-						// Delete id property in case of duplicate ids
-						delete item.resp.id
-						item.resp.properties = {
-							...properties,
-							label: properties?.label || item.label,
-							collection: item.path
-						}
+						processFeature(item.resp, item)
 					} else {
 						for (const feature of item.resp.features) {
-							// Delete id property in case of duplicate ids
-							delete feature.id
-							// Add geojson path to each feature to check for existing features
-							feature.properties = {
-								...feature.properties,
-								collection: item.path,
-								label: feature.label || item.label
-							}
-							// Replace for the lines below to add labels from the frontmatter
-							// feature.properties = {
-							// 	...feature.properties,
-							// 	collection: item.path,
-							// 	label: feature.properties?.label || item.label
-							// }
+							processFeature(feature, item)
 						}
 					}
 					map.set(item.path, item.resp)
@@ -203,22 +197,36 @@ export const mapBoxLayer = derived(
 	}
 )
 
-selectedSlideShowCount.subscribe((value) => {
-	console.log('slideShowCount', value)
-})
+// Uncomment for debugging
 
-selectedSlideData.subscribe((value) => {
-	console.log('selectedSlideData', value)
-})
+// selectedChapter.subscribe((value) => {
+// 	console.log('selectedChapter', value)
+// })
 
-georefAnnotations.subscribe((value) => {
-	console.log('georefAnnotations', value)
-})
+// selectedSlideShow.subscribe((value) => {
+// 	console.log('selectedSlideShow', value)
+// })
 
-vectorLayers.subscribe((value) => {
-	console.log('vectorLayers', value)
-})
+// selectedSlideIndex.subscribe((value) => {
+// 	console.log('selectedSlideIndex', value)
+// })
 
-mapBoxLayer.subscribe((value) => {
-	console.log('mapBoxLayer', value)
-})
+// selectedSlideShowCount.subscribe((value) => {
+// 	console.log('slideShowCount', value)
+// })
+
+// selectedSlideData.subscribe((value) => {
+// 	console.log('selectedSlideData', value)
+// })
+
+// georefAnnotations.subscribe((value) => {
+// 	console.log('georefAnnotations', value)
+// })
+
+// vectorLayers.subscribe((value) => {
+// 	console.log('vectorLayers', value)
+// })
+
+// mapBoxLayer.subscribe((value) => {
+// 	console.log('mapBoxLayer', value)
+// })
