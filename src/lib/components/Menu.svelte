@@ -45,7 +45,7 @@
 				{#each [...$slideData.keys()] as chapter}
 					<li>
 						<a on:click={toggleMenu} on:click={() => (hover = true)} href="#/{chapter}"
-							>{chapter.charAt(0).toUpperCase() + chapter.slice(1).replace('-', ' ')}</a
+							>{chapter.replace('-', ' ')}</a
 						>
 					</li>
 					<ul class="slideshows">
@@ -55,7 +55,7 @@
 									on:click={toggleMenu}
 									on:click={() => (hover = true)}
 									href="#/{chapter}/{slideshow}/1"
-									>{slideshow.charAt(0).toUpperCase() + slideshow.slice(1).replace('-', ' ')}</a
+									>{slideshow.charAt(0).toUpperCase() + slideshow.slice(1).replaceAll('-', ' ')}</a
 								>
 							</li>
 						{/each}
@@ -112,6 +112,7 @@
 		width: 100%;
 		margin: 0;
 		font-size: 1.2rem;
+		text-transform: capitalize;
 	}
 	.circle {
 		transform-origin: 127px 64px;
