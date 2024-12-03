@@ -395,7 +395,7 @@
 					]
 				]
 			},
-			"properties": { "label": "Phoenixstraat 30", "href": "#/binnenstad/phoenixstraat-30" }
+			"properties": { "label": "Phoenixstraat 30" }
 		},
 		{
 			"type": "Feature",
