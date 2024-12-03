@@ -63,7 +63,7 @@
 					]
 				]
 			},
-			"properties": { "label": "Oude Delft 39", "href": "#/binnenstad/oude-delft-39" }
+			"properties": { "label": "Oude Delft 39", "href": "#/locations/oude-delft-39" }
 		},
 		{
 			"type": "Feature",
@@ -158,7 +158,7 @@
 					]
 				]
 			},
-			"properties": { "label": "Doelenstraat 101", "href": "#/binnenstad/doelenstraat-101" }
+			"properties": { "label": "Doelenstraat 101", "href": "#/locations/doelenstraat-101" }
 		},
 		{
 			"type": "Feature",
@@ -313,7 +313,7 @@
 					]
 				]
 			},
-			"properties": { "label": "Oostplantsoen 25", "href": "#/binnenstad/oostplantsoen-25" }
+			"properties": { "label": "Oostplantsoen 25", "href": "#/locations/oostplantsoen-25" }
 		},
 		{
 			"type": "Feature",
@@ -347,7 +347,7 @@
 					]
 				]
 			},
-			"properties": { "label": "Oude Delft 75", "href": "#/binnenstad/oude-delft-75" }
+			"properties": { "label": "Oude Delft 75", "href": "#/locations/oude-delft-75" }
 		},
 		{
 			"type": "Feature",
@@ -446,7 +446,7 @@
 					]
 				]
 			},
-			"properties": { "label": "Oude Delft 89 - 95", "href": "#/binnenstad/oude-delft-89" }
+			"properties": { "label": "Oude Delft 89 - 95", "href": "#/locations/oude-delft-89" }
 		},
 		{
 			"type": "Feature",
@@ -468,7 +468,7 @@
 					]
 				]
 			},
-			"properties": { "label": "Oude Delft 118", "href": "#/binnenstad/oude-delft-118" }
+			"properties": { "label": "Oude Delft 118", "href": "#/locations/oude-delft-118" }
 		}
 	]
 }

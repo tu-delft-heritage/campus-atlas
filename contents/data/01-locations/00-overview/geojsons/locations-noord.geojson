@@ -1,7 +1,7 @@
 {
 	"type": "FeatureCollection",
 	"features": [
-				{
+		{
 			"type": "Feature",
 			"geometry": {
 				"type": "Polygon",
@@ -146,7 +146,7 @@
 					]
 				]
 			},
-			"properties": { "label": "Nieuwelaan 76", "href": "#/tu-noord/nieuwelaan-76" }
+			"properties": { "label": "Nieuwelaan 76", "href": "#/locations/nieuwelaan-76" }
 		},
 		{
 			"type": "Feature",
@@ -190,7 +190,7 @@
 					]
 				]
 			},
-			"properties": { "label": "Nieuwelaan 5", "href": "#/tu-noord/nieuwelaan-5" }
+			"properties": { "label": "Nieuwelaan 5" }
 		},
 		{
 			"type": "Feature",
@@ -323,7 +323,7 @@
 					]
 				]
 			},
-			"properties": { "label": "Kanaalweg 4", "href": "#/tu-noord/kanaalweg-4" }
+			"properties": { "label": "Kanaalweg 4", "href": "#/locations/kanaalweg-4" }
 		},
 		{
 			"type": "Feature",
@@ -402,7 +402,7 @@
 					]
 				]
 			},
-			"properties": { "label": "Kanaalweg 3", "href": "#/tu-noord/kanaalweg-3" }
+			"properties": { "label": "Kanaalweg 3", "href": "#/locations/kanaalweg-3" }
 		},
 		{
 			"type": "Feature",
@@ -633,7 +633,7 @@
 					]
 				]
 			},
-			"properties": { "label": "Julianalaan 67", "href": "#/tu-noord/julianalaan-67" }
+			"properties": { "label": "Julianalaan 67", "href": "#/locations/julianalaan-67" }
 		},
 		{
 			"type": "Feature",
@@ -755,7 +755,7 @@
 					]
 				]
 			},
-			"properties": { "label": "Mijnbouwstraat 20", "href": "#/tu-noord/mijnbouwstraat-20" }
+			"properties": { "label": "Mijnbouwstraat 20" }
 		},
 		{
 			"type": "Feature",
@@ -793,7 +793,7 @@
 					]
 				]
 			},
-			"properties": { "label": "Mijnbouwplein 11", "href": "#/tu-noord/mijnbouwplein-11" }
+			"properties": { "label": "Mijnbouwplein 11" }
 		},
 		{
 			"type": "Feature",
@@ -1597,7 +1597,7 @@
 					]
 				]
 			},
-			"properties": { "label": "Julianalaan 134", "href": "#/tu-noord/julianalaan-134" }
+			"properties": { "label": "Julianalaan 134" }
 		},
 		{
 			"type": "Feature",
@@ -1686,7 +1686,7 @@
 					]
 				]
 			},
-			"properties": { "label": "Julianalaan 136", "href": "#/tu-noord/julianalaan-136" }
+			"properties": { "label": "Julianalaan 136", "href": "#/locations/julianalaan-136" }
 		}
 	]
 }
